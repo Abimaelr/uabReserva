@@ -36,10 +36,10 @@ const opitions = {
   },
   particles: {
     color: {
-      value: "#00000",
+      value: "transparent",
     },
     links: {
-      color: "#0000",
+      color: "#FFFF",
       distance: 100,
       enable: true,
       opacity: 0.5,
@@ -49,11 +49,11 @@ const opitions = {
       enable: false,
     },
     move: {
-      direction: "none",
+      direction: "right",
       enable: true,
       outMode: "bounce",
-      random: false,
-      speed: 2,
+      random: true,
+      speed: 4,
       straight: false,
     },
     number: {
@@ -61,7 +61,7 @@ const opitions = {
         enable: true,
         value_area: 800,
       },
-      value: 80,
+      value: 100,
     },
     opacity: {
       value: 1,

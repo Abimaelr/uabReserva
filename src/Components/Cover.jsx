@@ -5,11 +5,17 @@ import '../assets/css/cover.css'
 
 function Cover() {
     return (
-        <div className="cover">
+        <div id="cover">
             <Particles
                 id="tsparticles"
                 options = {options}
             />
+            <div className="coverHead">
+                <div id="logo" />
+                <div className="titleBox">
+                    <h1>Futuro, Design,Tecnologia, Monetização e Eventos Corporativos</h1>
+                </div>
+            </div>
         </div>
     )
 }
