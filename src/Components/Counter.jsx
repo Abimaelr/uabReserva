@@ -51,7 +51,7 @@ function Counter() {
         <div id="counter">
             <div className="dateItem">
                 <h2>{Days}</h2>
-                <p>dias</p>
+                <p>Dias</p>
             </div>
             <div className="dateItem">
                 <h2>{Hours}</h2>

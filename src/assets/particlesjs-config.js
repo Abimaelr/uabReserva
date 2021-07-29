@@ -9,7 +9,7 @@ const opitions = {
     detectsOn: "canvas",
     events: {
       onClick: {
-        enable: true,
+        enable: false,
         mode: "push",
       },
       onHover: {
@@ -64,7 +64,7 @@ const opitions = {
       value: 100,
     },
     opacity: {
-      value: 1,
+      value: 0.5,
     },
     shape: {
       type: "circle",

@@ -1,5 +1,6 @@
 import React from 'react';
 import Particles from 'react-tsparticles';
+import {Button} from 'react-bootstrap';
 import Counter from './Counter';
 import options from '../assets/particlesjs-config';
 import '../assets/css/cover.css'
@@ -12,13 +13,7 @@ function Cover() {
                 options = {options}
             />
             <div className="coverHead">
-                <div id="logo" />
-                <div className="titleBox">
-                    <h1>Futuro, Design,Tecnologia, Monetização e Eventos Corporativos</h1>
-                </div>
-            </div>
-           
-            <div id="mainInfo">
+                <div id="mainInfo">
                 <div className="infoBox">
                     <div className="features">
                         <ion-icon name="calendar"/>
@@ -33,9 +28,18 @@ function Cover() {
                         <p>Even3</p>
                     </div>
                 </div>
-                <Counter className="counter"/>
+                    <div id="logo" />
+                    <button id="subscribeButton" onClick={()=> alert('opa')}>Inscreva-se</button>
+                </div>
+                <div className="titleBox">
+                    <h1>Futuro, Design,Tecnologia, Monetização e Eventos Corporativos</h1>
+                </div>
             </div>
-        </div>
+           
+              <div className="counter">
+                <Counter/>
+              </div>
+            </div>
     )
 }
 
