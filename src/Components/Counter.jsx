@@ -51,19 +51,19 @@ function Counter() {
         <div id="counter">
             <div className="dateItem">
                 <h2>{Days}</h2>
-                <p>Dias</p>
+                <p>DIAS</p>
             </div>
             <div className="dateItem">
                 <h2>{Hours}</h2>
-                <p>Horas</p>
+                <p>HORAS</p>
             </div>
             <div className="dateItem">
                 <h2>{Minutes}</h2>
-                <p>Minutos</p>
+                <p>MINUTOS</p>
             </div>
             <div className="dateItem">
                 <h2>{Seconds}</h2>
-                <p>Segundos</p>
+                <p>SEGUNDOS</p>
             </div>
         </div>
     )

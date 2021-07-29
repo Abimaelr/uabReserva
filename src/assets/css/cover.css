@@ -15,7 +15,7 @@
 }
 
 .coverHead {
-    margin-top: 100px;
+    padding: 30px 0;
     display: flex;
     flex-wrap: wrap;
     /* background: tomato; */
@@ -25,7 +25,7 @@
 
 #logo {
     height: 150px;
-    width: 400px;
+    width: 350px;
     margin: auto;
     background-image: url('../img/logo.png');
     background-size: 400px;
