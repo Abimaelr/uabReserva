@@ -1,11 +1,12 @@
 #counter {
     display: flex;
     /* width: 300px; */
-    box-shadow: 1px 5px 10px rgba(189, 189, 189, 0.179);
-    border-radius: 5px;
+    /* box-shadow: 1px 5px 10px rgba(189, 189, 189, 0.179);
+    border-radius: 5px; */
     width: 400px;
     justify-content: space-evenly;
     align-items: center;
+    user-select: none;
 }
 
 #counter p, #counter h2{
