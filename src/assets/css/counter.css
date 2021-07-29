@@ -1,0 +1,25 @@
+#counter {
+    display: flex;
+    /* width: 300px; */
+    box-shadow: 1px 5px 10px rgba(189, 189, 189, 0.179);
+    border-radius: 5px;
+    width: 400px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#counter p, #counter h2{
+    margin: 0;
+    
+}
+
+.dateItem {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
+    padding: 10px 0
+    /* margin-top: 15px; */
+    /* background-color: black; */
+
+}
