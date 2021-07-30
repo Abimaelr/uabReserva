@@ -21,6 +21,17 @@ function App() {
       <h2>lorem</h2>
       <h2>lorem</h2>
       <h2>lorem</h2>
+      <h2>lorem</h2>
+      <h2>lorem</h2>
+      <h2>lorem</h2>
+      <h2>lorem</h2>
+      <h2>lorem</h2>
+      <h2>lorem</h2>
+      <h2>lorem</h2>
+      <h2>lorem</h2>
+      <h2>lorem</h2>
+      <h2>lorem</h2>
+      <h2>lorem</h2>
       {/* <Cover /> */}
     </div>
   );

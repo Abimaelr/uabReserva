@@ -1,13 +1,27 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import Particles from 'react-tsparticles';
-import {Button} from 'react-bootstrap';
 import Counter from './Counter';
 import options from '../assets/particlesjs-config';
 import '../assets/css/cover.css'
+import $ from 'jquery';
+
 
 function Cover() {
+
+    useEffect(() => {
+        window
+            .addEventListener('scroll', ({path})=> {
+                const Window = path[1].scrollY;
+                // console.log(Window);
+                    $('.coverHead').css({"transform": `translateY(${0.4*Window}px)`, "transition": '10ms'})
+                // $('#cover').css({"background": `-webkit-linear-gradient(to right, #000C40, #${parseInt('F0F2F0', 16) - Window}`,  "background": `linear-gradient(to right, #000C40, #${parseInt('F0F2F0', 16) - 10000000*Window}`});
+            });
+    }, []);
     return (
         <div id="cover">
+            <div className="coverContainer">
+
+            
             <Particles
                 id="tsparticles"
                 options = {options}
@@ -34,12 +48,13 @@ function Cover() {
                 <div className="titleBox">
                     <h1>Futuro, Design,Tecnologia, Monetização e Eventos Corporativos</h1>
                 </div>
-            </div>
-           
               <div className="counter">
                 <Counter/>
               </div>
             </div>
+           
+            </div>
+        </div>
     )
 }
 

@@ -1,5 +1,4 @@
 import React,{useState, useEffect} from 'react';
-import { CSSTransition, TransitionGroup } from "react-transition-group";
 
 import '../assets/css/counter.css'
 const seconds = 1000;
@@ -30,7 +29,6 @@ function Counter() {
         if(time > 0) {
             setStart(true);
         }
-        console.log(time > 0)
         setSeconds(format(fSeconds));
         setMinutes(format(fMinutes));
         setHours(format(fHours));
