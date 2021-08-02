@@ -12,6 +12,10 @@
     background: linear-gradient(to right, #000C40, #F0F2F0); 
     overflow: hidden;
 }
+
+.animate {
+    display: none;
+}
 .coverContainer {
     display: flex;
     flex-wrap: wrap;
