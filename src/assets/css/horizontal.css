@@ -1,0 +1,34 @@
+.hCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 480px;
+    height: 117;
+    padding: 5px;
+    /* background-color: black; */
+    margin: 5px;
+}
+
+.imgCard {
+    /* display: flex; */
+height: 100%;
+background-color: #930C79;
+   width: 35%;
+}
+
+.imgCard:hover {
+    background-color: #4204A4;
+}
+
+.textCard {
+    width: 260px;
+    background-color: brown;
+    height: 100%;
+    width: 65%;
+    /* width: 80%; */
+}
+
+.imgCard i{
+    color: white;
+    font-size: 8rem;
+}

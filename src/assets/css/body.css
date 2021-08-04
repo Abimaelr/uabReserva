@@ -1,0 +1,22 @@
+#features {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: yellow; */
+}
+#cardContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* background-color: black; */
+}
+
+@media only screen and (max-width: 1466px) {
+    #cardContainer {
+        min-width: 80%;
+        grid-template-columns: auto;
+        margin: auto;
+        background-color: rgb(8, 48, 61);
+    }
+  }
