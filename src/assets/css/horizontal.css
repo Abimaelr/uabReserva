@@ -3,26 +3,30 @@
     align-items: center;
     justify-content: center;
     width: 400px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 5px;
     /* height: 117px; */
     padding: 5px;
     /* background-color: black; */
     margin: 2px;
+    transition: 200ms;
 }
 
 .imgCard {
     display: flex;
     align-items: center;
     height: 100%;
-    background-color: #930C79;
+    background-color: #ffffff3a;
     width: 35%;
+    
 }
 
-.imgCard:hover {
-    background-color: #4204A4;
+.hCard:hover {
+    background-color: rgb(0, 16, 68);
 }
 
 .textCard {
-    background-color: brown;
+    /* background-color: brown; */
     height: 100%;
     width: 65%;
     /* width: 80%; */

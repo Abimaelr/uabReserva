@@ -4,7 +4,7 @@
 }
 
 #content {
-    background: black;
+    background: #0D0C0E;
     color: blanchedalmond;
 }
 
@@ -64,6 +64,21 @@
     /* background-color: black; */
 }
 
+#speakersBtn {
+    width: 80%;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    transition: 300ms;
+}
+
+
+#speakersBtn:hover {
+    background-color: white;
+    color: black;
+}
 
 @media only screen and (max-width: 1210px) {
     #cardContainer {
