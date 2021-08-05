@@ -1,3 +1,7 @@
+*{
+    overflow-x: hidden;
+}
+
 #features {
     width: 100%;
     display: flex;
@@ -6,17 +10,64 @@
     flex-direction: column;
     /* background-color: yellow; */
 }
+
+.titleHead {
+    /* overflow-x: hidden; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 18vw;
+    position:static;
+    margin: 10px auto;
+}
+
+.titleHead h3 {
+    /* background: rgb(0, 0, 0); */
+    font-family: 'Roboto';
+    margin: auto;
+    font-size: 4vw;
+    font-weight: 800;
+    position: absolute;
+    margin: 10px auto;
+    /* position: absolute; */
+    z-index: 1;
+}
+
+.backgroundTitle {
+    z-index: 0;
+    position: absolute;
+}
+
+.backgroundTitle h2{
+    font-family: 'Roboto';
+    font-size: 15vw;
+    font-weight: 800;
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(70, 70, 70);
+    /* text-shadow: 0px 0px 1px black; */
+    stroke-width: 1px;
+    
+}
+
 #cardContainer {
+    overflow-y: hidden;
     display: grid;
     grid-template-columns: auto auto auto;
     /* background-color: black; */
 }
 
-@media only screen and (max-width: 1466px) {
+
+@media only screen and (max-width: 1210px) {
     #cardContainer {
         min-width: 80%;
         grid-template-columns: auto;
         margin: auto;
         background-color: rgb(8, 48, 61);
+    }
+    .hCard {
+        width: 100%;
+        margin-top: 10px;
     }
   }

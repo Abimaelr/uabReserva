@@ -3,6 +3,7 @@ import {Container, Row, Col} from 'react-bootstrap';
 import HorizontalCard from './HorizontalCard';
 import '../assets/css/body.css';
 import Speakers from './Speakers';
+import SpecialTitle from './SpecialTitle';
 
 function Body() {
     return (
@@ -11,7 +12,8 @@ function Body() {
            <Row>
                <Col>
                     <div>
-                        <h2>Welcome to the Biggest</h2>
+                    <SpecialTitle title="Welcome" subTitle="Creative Design Conference" />
+                        {/* <h2>Welcome to the Biggest</h2> */}
                         <h2>Creative Design Conference</h2>
                         <br/>
                         <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
@@ -41,6 +43,7 @@ function Body() {
                 <HorizontalCard />
             </div>
         </div>
+        <SpecialTitle title="Palestrantes" subTitle="Alguma Frase de Efeito" />
         <Speakers />
         
        </>

@@ -2,18 +2,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 480px;
-    height: 117;
+    width: 400px;
+    /* height: 117px; */
     padding: 5px;
     /* background-color: black; */
-    margin: 5px;
+    margin: 2px;
 }
 
 .imgCard {
-    /* display: flex; */
-height: 100%;
-background-color: #930C79;
-   width: 35%;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background-color: #930C79;
+    width: 35%;
 }
 
 .imgCard:hover {
@@ -21,7 +22,6 @@ background-color: #930C79;
 }
 
 .textCard {
-    width: 260px;
     background-color: brown;
     height: 100%;
     width: 65%;
@@ -31,4 +31,5 @@ background-color: #930C79;
 .imgCard i{
     color: white;
     font-size: 8rem;
+    margin: auto;
 }
