@@ -23,19 +23,9 @@ function App() {
   return (
     <div className="App">
       <Cover />
-      <Body />
-      {/* <Fade colapse right duration={3000}>
-          <h1>React Reveal</h1>
-        </Fade> */}
-      <h2>lorem</h2>
-      <h2>lorem</h2>
-      <h2>lorem</h2>
-      <h2>lorem</h2>
-      <h2>lorem</h2>
-      <h2>lorem</h2>
-      <h2>lorem</h2>
-      <h2>lorem</h2>
-      {/* <Cover /> */}
+      <div id="content">
+        <Body />
+      </div>
     </div>
   );
 }

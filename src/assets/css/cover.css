@@ -5,11 +5,11 @@
 
 #cover {
     display: flex;
-    background-color: rgb(253, 253, 253);
+    /* background-color: rgb(253, 253, 253); */
     z-index: 1;
     background: #ee0000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #000C40, #F0F2F0); 
-    background: linear-gradient(to right, #000C40, #F0F2F0); 
+    background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(0, 16, 68) 80%);
     overflow: hidden;
 }
 
@@ -65,7 +65,7 @@
 
 .titleBox h1 {
     text-align: right;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     /* background: chartreuse; */
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
@@ -111,7 +111,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    color: rgb(165, 11, 11);
+    color: rgb(255, 255, 255);
     margin: auto;
     /* transform: translateY(200%); */
     /* position:bottom; */

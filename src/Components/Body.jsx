@@ -44,7 +44,7 @@ function Body() {
             </div>
         </div>
         <SpecialTitle title="Palestrantes" subTitle="Alguma Frase de Efeito" />
-        <Speakers />
+            <Speakers />
         
        </>
     )

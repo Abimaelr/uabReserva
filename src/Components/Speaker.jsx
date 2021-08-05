@@ -13,15 +13,21 @@ function Speaker(props) {
                     <br />
                     <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
                     <div className="speakerContact">
-                        <a href="">
-                            <i class="lab la-instagram"></i>
-                        </a>
-                        <a href="">
-                        <i class="lab la-linkedin"></i>
-                        </a>
-                        <a href="">
-                            <i class="las la-envelope-open"></i>
-                        </a>
+                        {props.ig ? 
+                            <a href={props.ig}>
+                                <i class="lab la-instagram" /> 
+                            </a>
+                        : null }
+                        {props.linkedin ?
+                            <a href={props.linkedin}>
+                                <i class="lab la-linkedin" /> 
+                            </a>
+                        : null}
+                        {props.email ? 
+                            <a href={props.email}>
+                                <i class="las la-envelope-open"/> 
+                            </a>
+                        : null}
                     </div>
                 </div>
             </div>

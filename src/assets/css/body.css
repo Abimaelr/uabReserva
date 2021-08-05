@@ -1,5 +1,11 @@
 *{
     overflow-x: hidden;
+    /* background-color: black; */
+}
+
+#content {
+    background: black;
+    color: blanchedalmond;
 }
 
 #features {
