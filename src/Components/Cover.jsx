@@ -13,7 +13,7 @@ function Cover() {
             .addEventListener('scroll', (event)=> {
                 const Window = window.scrollY;
               
-                $('.coverHead').css({"transform": `translateY(${-0.2*Window}px)`, 'transition': '100ms', 'will-change': 'transform'})
+                $('.coverHead').css({"transform": `translateY(${-0.25*Window}px)`, 'transition': '500ms', 'will-change': 'transform'})
                 // $('#cover').css({"background": `-webkit-linear-gradient(to right, #000C40, #${parseInt('F0F2F0', 16) - Window}`,  "background": `linear-gradient(to right, #000C40, #${parseInt('F0F2F0', 16) - 10000000*Window}`});
             });
     }, []);

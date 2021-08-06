@@ -39,7 +39,7 @@ background: linear-gradient(0deg, #0D0C0E 0%, rgb(0, 16, 68) 80%);
     width: 100vw;
     height:  100%;
     transform: translateY(0px);
-    overflow-x: hidden;
+    overflow: hidden;
     will-change: transform;
     /* transition: 0.5ms; */
     /* position:absolute; */
