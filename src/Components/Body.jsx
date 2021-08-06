@@ -9,10 +9,11 @@ function Body() {
     return (
         <>
        <Container>
+           <br />
            <Row>
+                <SpecialTitle title="Welcome" subTitle="Creative Design Conference" />
                <Col>
                     <div>
-                    <SpecialTitle title="Welcome" subTitle="Creative Design Conference" />
                         {/* <h2>Welcome to the Biggest</h2> */}
                         <h2>Creative Design Conference</h2>
                         <br/>
@@ -31,6 +32,7 @@ function Body() {
            </Row>
        </Container>
         <div id="features">
+            <SpecialTitle title="Features" subTitle="What you can see here" />
             <div>
                 <h2>Why you should Join Event</h2>
             </div>
@@ -43,7 +45,7 @@ function Body() {
                 <HorizontalCard />
             </div>
         </div>
-        <SpecialTitle title="Palestrantes" subTitle="Alguma Frase de Efeito" />
+        <SpecialTitle title="Speakers" subTitle="Who are us?" />
             <Speakers />
         
        </>

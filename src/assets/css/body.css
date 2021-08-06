@@ -19,6 +19,7 @@
 
 .titleHead {
     /* overflow-x: hidden; */
+    /* background: yellow; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -85,7 +86,7 @@
         min-width: 80%;
         grid-template-columns: auto;
         margin: auto;
-        background-color: rgb(8, 48, 61);
+        /* background-color: rgb(8, 48, 61); */
     }
     .hCard {
         width: 100%;
