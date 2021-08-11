@@ -12,7 +12,7 @@ function Body() {
            <br />
            <Row>
                 <SpecialTitle title="Welcome" subTitle="Creative Design Conference" />
-               <Col>
+               <Col sm={6}>
                     <div>
                         {/* <h2>Welcome to the Biggest</h2> */}
                         <h2>Creative Design Conference</h2>

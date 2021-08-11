@@ -8,7 +8,13 @@ function Speakers() {
         <>
         <Fade left>
             <div id="speakerContent">
-                <Speaker url={s1} ig="https://google.com"/>
+                <Speaker
+                    url={s1}
+                    name="Abimael Albuquerque"
+                    title="FrontEnd Developer"
+                    description="lorem..."
+                    ig="https://google.com"
+                />
                 <Speaker />
                 <Speaker />
                 <Speaker />

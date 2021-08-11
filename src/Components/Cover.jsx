@@ -1,9 +1,8 @@
 import React, {useEffect} from 'react';
-import Particles from 'react-tsparticles';
 import Counter from './Counter';
-import options from '../assets/particlesjs-config';
 import '../assets/css/cover.css'
 import $ from 'jquery';
+import coverVideo from '../assets/cover.mp4';
 
 
 function Cover() {
@@ -20,10 +19,9 @@ function Cover() {
     return (
         <div id="cover">
             <div className="coverContainer">
-            <Particles
-                id="tsparticles"
-                options = {options}
-            />
+            <video autoplay="true" muted id="coverItem">
+                <source src={coverVideo} type="video/mp4"/>
+            </video>
             <div className="coverHead">
                 <div id="mainInfo">
                     <div className="infoBox">

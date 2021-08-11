@@ -8,10 +8,10 @@ function Speaker(props) {
                 backgroundImage: `url(${props.url})` 
             }}>
                 <div className="speakerInfo">
-                    <h4>Abimael Rocha</h4>
-                    <h5>Desenvolvedor Front-End</h5>
+                    <h4>{props.name}</h4>
+                    <h5>{props.title}</h5>
                     <br />
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
+                    <p>{props.description}</p>
                     <div className="speakerContact">
                         {props.ig ? 
                             <a href={props.ig}>
