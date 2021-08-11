@@ -19,7 +19,7 @@ function Cover() {
     return (
         <div id="cover">
             <div className="coverContainer">
-            <video preload="true" playsinline="true" autoplay="true" controls={false} muted id="coverItem">
+            <video preload playsinline autoplay="true" controls={false} muted id="coverItem">
                 {/* <source src='https://web.whatsapp.com/a6925c93-3e50-4507-b85b-cc1447e65e5a' type="video/mp4"/> */}
                 <source src={webm} type="video/webm"></source>
                 Your browser does not support the video tag.
