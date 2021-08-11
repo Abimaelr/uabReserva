@@ -2,8 +2,8 @@ import React, {useEffect} from 'react';
 import Counter from './Counter';
 import '../assets/css/cover.css'
 import $ from 'jquery';
-import coverVideo from '../assets/cover.mp4';
-
+import mp4 from '../assets/cover.mp4';
+import webm from '../assets/cover.webm';
 
 function Cover() {
 
@@ -19,8 +19,10 @@ function Cover() {
     return (
         <div id="cover">
             <div className="coverContainer">
-            <video autoplay="true" muted id="coverItem">
-                <source src={coverVideo} type="video/mp4"/>
+            <video preload="true" playsinline="true" autoplay="true" controls={false} muted id="coverItem">
+                {/* <source src='https://web.whatsapp.com/a6925c93-3e50-4507-b85b-cc1447e65e5a' type="video/mp4"/> */}
+                <source src={webm} type="video/webm"></source>
+                Your browser does not support the video tag.
             </video>
             <div className="coverHead">
                 <div id="mainInfo">
