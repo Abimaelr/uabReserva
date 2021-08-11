@@ -2,6 +2,8 @@ import React, {useEffect} from 'react';
 import Counter from './Counter';
 import '../assets/css/cover.css'
 import $ from 'jquery';
+import Particles from 'react-tsparticles';
+import config from '../assets/particlesjs-config';
 import mp4 from '../assets/cover.mp4';
 import webm from '../assets/cover.webm';
 
@@ -19,11 +21,13 @@ function Cover() {
     return (
         <div id="cover">
             <div className="coverContainer">
-            <video preload playsinline autoplay="true" controls={false} muted id="coverItem">
-                {/* <source src='https://storage.googleapis.com/portal-pmjp.appspot.com/video/cover.mp4' type="video/mp4"/> */}
+            <Particles options={config} />
+            {/* <video preload playsinline autoplay="true" controls={false} muted id="coverItem">
+                <source src='https://storage.googleapis.com/portal-pmjp.appspot.com/video/cover.mp4' type="video/mp4"/>
                 <source src="https://storage.googleapis.com/portal-pmjp.appspot.com/video/cover.webm" type="video/webm"></source>
+                <source src={webm} type="video/webm"></source>
                 Your browser does not support the video tag.
-            </video>
+            </video> */}
             <div className="coverHead">
                 <div id="mainInfo">
                     <div className="infoBox">

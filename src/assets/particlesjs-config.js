@@ -4,7 +4,7 @@ const opitions = {
       value: "transparent",
     },
   },
-  fpsLimit: 60,
+  fpsLimit: 50,
   interactivity: {
     detectsOn: "canvas",
     events: {
@@ -23,7 +23,7 @@ const opitions = {
         distance: 400,
         duration: 2,
         opacity: 0.8,
-        size: 40,
+        size: 400,
       },
       push: {
         quantity: 4,
@@ -36,30 +36,30 @@ const opitions = {
   },
   particles: {
     color: {
-      value: "transparent",
+      value: "#FFFF",
     },
     links: {
       color: "#FFFF",
-      distance: 100,
+      distance: 180,
       enable: true,
-      opacity: 0.5,
-      width: 1,
+      opacity: 0.2,
+      width: 2,
     },
     collisions: {
-      enable: false,
+      enable: true,
     },
     move: {
       direction: "right",
       enable: true,
       outMode: "bounce",
       random: true,
-      speed: 4,
+      speed: 1,
       straight: false,
     },
     number: {
       density: {
         enable: true,
-        value_area: 800,
+        value_area: 1000,
       },
       value: 100,
     },
@@ -71,7 +71,7 @@ const opitions = {
     },
     size: {
       random: true,
-      value: 5,
+      value: 12,
     },
   },
   detectRetina: true,
