@@ -9,7 +9,7 @@ import Schedule from './Schedule';
 
 function Body() {
     return (
-        <div id="content">
+       <div id="content">
        <Container >
            <br />
            <Row>
