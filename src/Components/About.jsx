@@ -10,7 +10,7 @@ function About() {
             <Container fluid="sm">
                 <Row>
                     <SpecialTitle title="Sobre" subTitle="Nossa História" />
-                    <Col>
+                    <Col sm={12}>
                             <p>
                                 Nos últimos anos, a Educação a Distância tem se expandido
                                 significativamente na sociedade, trazendo grandes benefícios tecnológicos e

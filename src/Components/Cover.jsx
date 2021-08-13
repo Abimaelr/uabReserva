@@ -4,8 +4,6 @@ import '../assets/css/cover.css'
 import $ from 'jquery';
 import Particles from 'react-tsparticles';
 import config from '../assets/particlesjs-config';
-import {Link} from 'react-router-dom';
-
 
 function Cover() {
 
