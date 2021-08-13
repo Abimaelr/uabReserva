@@ -26,15 +26,9 @@
     color: white;
     font-size: 5rem;
     box-shadow: inset 1px 1px 100px white;
+    
 }
 
-#coverItem::after{
-    position: absolute;
-    display: block;
-    width: 100px;
-    height: 100px;
-    box-shadow: 1px 1px 100px white;
-}
 .animate {
     display: none;
 }
@@ -48,7 +42,7 @@
 }
 #tsparticles {
     height: 100%;
-    /* width: 80%; */
+    width: 70%;
     background-position:center;
     /* background-attachment: fixed; */
     position: absolute;
@@ -58,7 +52,7 @@
 .coverHead {
     padding: 30px 0;
     display: flex;
-    display: none;
+    /* display: none; */
     flex-wrap: wrap;
     /* background: tomato; */
     width: 100vw;
@@ -66,6 +60,8 @@
     transform: translateY(0px);
     overflow: hidden;
     will-change: transform;
+    
+    /* background: sandybrown; */
     /* transition: 0.5ms; */
     /* position:absolute; */
 }
@@ -105,6 +101,7 @@
     border-radius: 5px;
     color: white;
     width: 400px;
+    
     margin: 30px auto;
     /* margin-left: 12%; */
 

@@ -21,6 +21,20 @@ function Speakers() {
                 <Speaker />
                 <Speaker />
             </div>
+            <div id="speakerContent">
+                <Speaker
+                    url={s1}
+                    name="Abimael Albuquerque"
+                    title="FrontEnd Developer"
+                    description="lorem..."
+                    ig="https://google.com"
+                />
+                <Speaker />
+                <Speaker />
+                <Speaker />
+                <Speaker />
+                <Speaker />
+            </div>
         </Fade>
         </>
     )

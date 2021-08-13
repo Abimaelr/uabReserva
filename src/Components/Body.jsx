@@ -4,11 +4,13 @@ import HorizontalCard from './HorizontalCard';
 import '../assets/css/body.css';
 import Speakers from './Speakers';
 import SpecialTitle from './SpecialTitle';
+import Sponsors from './Sponsors';
+import Schedule from './Schedule';
 
 function Body() {
     return (
-        <>
-       <Container>
+        <div id="content">
+       <Container >
            <br />
            <Row>
                 <SpecialTitle title="Welcome" subTitle="Creative Design Conference" />
@@ -46,9 +48,11 @@ function Body() {
             </div>
         </div>
         <SpecialTitle title="Speakers" subTitle="Who are us?" />
-            <Speakers />
-        
-       </>
+        <Speakers />
+        <SpecialTitle title="Agenda" subTitle="Programação da Semana" />
+        <Schedule />
+        <Sponsors />
+       </div>
     )
 }
 

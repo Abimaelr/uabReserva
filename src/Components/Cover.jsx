@@ -4,8 +4,8 @@ import '../assets/css/cover.css'
 import $ from 'jquery';
 import Particles from 'react-tsparticles';
 import config from '../assets/particlesjs-config';
-import mp4 from '../assets/cover.mp4';
-import webm from '../assets/cover.webm';
+import {Link} from 'react-router-dom';
+
 
 function Cover() {
 
@@ -44,15 +44,15 @@ function Cover() {
                             <p>Even3</p>
                         </div>
                     </div>
-                        <div id="logo" />
-                        <button id="subscribeButton" onClick={()=> alert('opa')}>Inscreva-se</button>
+                    <div id="logo" />
+                        <button id="subscribeButton">Inscreva-se</button>
                     </div>
-                    <div className="titleBox">
+                    {/* <div className="titleBox">
                         <h1>Futuro, Design,Tecnologia, Monetização e Eventos Corporativos</h1>
+                    </div> */}
+                    <div className="counter">
+                        <Counter/>
                     </div>
-                <div className="counter">
-                    <Counter/>
-                </div>
                 </div>
             </div>
         </div>

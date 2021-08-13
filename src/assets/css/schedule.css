@@ -1,0 +1,85 @@
+#schedule {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    min-height: 600px;
+    width: 100%;
+    z-index: 1;
+    color: black;
+
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+    /* backdrop-filter: blur(100px); */
+    
+}
+
+.bg-image {
+    width: 100%;
+    height: 600px;
+    background-image: url('../img/schedule.jpg');
+    position: absolute;
+    z-index: 0;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    
+}
+
+.schedule {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 300px;
+    min-height: 400px;
+    height: min-content;
+    position: relative;
+    /* background-color: blue; */
+    margin: auto;
+    border-radius: 5px;
+    padding: 50px 0 ;
+    border: solid 1px rgba(9, 3, 3, 0.2);
+    
+}
+
+.schedule h3 {
+    font-weight: 800;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.schedule h4 {
+    text-align: center;
+    color: rgb(255, 166, 0);
+    font-weight: 800;
+}
+
+.schedule ul {
+    margin: auto;
+    padding: 0;
+    width: 100%;
+}
+.schedule ul li {
+    /* background:violet; */
+    text-align: center;
+    
+    text-decoration: none;
+    list-style-type: none;
+}
+
+@media only screen and (max-width: 930px) {
+    #schedule {
+        grid-template-columns: none;
+        grid-template-rows: auto auto auto;
+    }
+    .schedule {
+        margin: 30px auto;
+        width: 80%;
+    }
+    .bg-image {
+        height: 1380px;
+  }
+}

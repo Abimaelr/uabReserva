@@ -1,31 +1,23 @@
-import Cover from './Components/Cover';
-import Body from './Components/Body';
+import Home from './Pages/Home';
+import About from './Components/About';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 import './App.css';
 import 'animate.css/animate.css'
-import Fade from 'react-reveal/Fade';
-
-
-const Text = () => <div>
-  <h2>lorem</h2>
-  <h2>lorem</h2>
-  <h2>lorem</h2>
-  <h2>lorem</h2>
-  <h2>lorem</h2>
-  <h2>lorem</h2>
-  <h2>lorem</h2>
-  <h2>lorem</h2>
-  <h2>lorem</h2>
-</div>
-
 
 function App() {
 
   return (
     <div className="App">
-      <Cover />
-      <div id="content">
-        <Body />
-      </div>
+      <Router>
+        <Switch>
+          <Route exact path="/" component={Home}/>
+          <Route exact path="/about" component={About}/>
+        </Switch>
+      </Router>
     </div>
   );
 }
