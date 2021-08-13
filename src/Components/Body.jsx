@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import {Container, Row, Col} from 'react-bootstrap';
 import HorizontalCard from './HorizontalCard';
 import '../assets/css/body.css';
@@ -21,7 +22,10 @@ function Body() {
                         <br/>
                         <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
                         <br />
-                        <button id="speakersBtn">The Speakers</button>
+                        <Link to="/about">
+                            <button id="speakersBtn">SOBRE</button>
+                        </Link>
+                       
                     </div>
                </Col>
                <Col>
@@ -49,8 +53,10 @@ function Body() {
         </div>
         <SpecialTitle title="Speakers" subTitle="Who are us?" />
         <Speakers />
+        <div id="scheduleMarker" />
         <SpecialTitle title="Agenda" subTitle="Programação da Semana" />
         <Schedule />
+        <h1>ACESSE AQUI!</h1>
         <Sponsors />
        </div>
     )

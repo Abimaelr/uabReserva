@@ -23,7 +23,7 @@
     overflow-y: hidden;
     width: 100%;
     height: 100%;
-    transition: 200ms;
+    transition: 50ms;
 }
 
 .speakerInfo {
@@ -67,7 +67,7 @@
 
 .speakerItem:hover{
     /* flex-grow: 2; */
-    width: 400px;
+    width: 200px;
     position: relative;
 }
 

@@ -1,6 +1,8 @@
 *{
     overflow-x: hidden;
     scroll-behavior: smooth;
+    font-family: 'Roboto';
+    /* transition: 1000ms; */
     /* background-color: black; */
 }
 
@@ -8,6 +10,7 @@
     /* background: #0D0C0E; */
     background: black;
     color: blanchedalmond;
+   
 }
 
 #features {

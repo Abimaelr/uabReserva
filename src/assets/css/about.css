@@ -1,4 +1,18 @@
 #about {
     background: black;
     min-height: 100vh;
+    color: white;
+    margin: auto;
+    padding: 30px 0;
+}
+
+#about h1
+{
+    color: orange;
+    font-weight: 800;
+}
+
+#about p 
+{
+    text-align: left;
 }

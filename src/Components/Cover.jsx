@@ -46,11 +46,10 @@ function Cover() {
                     </div>
                     <div id="logo" />
                     <a href="#content">
-                        <button id="subscribeButton">
-                            
+                        <button className="Button">
                                 Saiba Mais
                         </button>
-                            </a>
+                    </a>
                     </div>
                     {/* <div className="titleBox">
                         <h1>Futuro, Design,Tecnologia, Monetização e Eventos Corporativos</h1>
