@@ -4,8 +4,82 @@
    
 }
 
-#carousel div div{
+/* #carousel div div{
     height:300px;
     background: white;
     margin: 0 10px;
+} */
+
+.sponsorItem  {
+    height:200px;
+    max-width: 200px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    margin: 0 1px;
 }
+
+.s1 {
+    background-image: url('../img/logos/Alagoa\ Grande.png');
+}
+.s2 {
+    background-image:url('../img/logos/Araruna\ .png');
+}
+.s3 {
+    background-image:url('../img/logos/Cabaceiras\,_PB_.png');
+}
+.s4 {
+    background-image:url('../img/logos/Duas\ estradas\ Logo.png');
+}
+.s5 {
+    background-image:url('../img/logos/Itabaiana.png');
+}
+.s6 {
+    background-image:url('../img/logos/Livramento\ PB.png');
+}
+.s7 {
+    background-image:url('../img/logos/logo-Coremas.png');
+}
+.s8 {
+    background-image:url('../img/logos/Logo-João-Pessoa.png');
+}
+.s9 {
+    background-image:url('../img/logos/Logo\ Taperoa.jpg');
+}
+.s10 {
+    background-image:url('../img/logos/Logo_PM\ Pombal.png');
+}
+.s11 {
+    background-image:url('../img/logos/Prefeitura-de-Campina-Grande-Logo.png');
+}
+.s12 {
+    background-image:url('../img/logos/prefeitura-de-mari-pb-1599684044.jpg');
+}
+.s13 {
+    background-image:url('../img/logos/prefeitura-de-Pitimbu-PB.jpg');
+}
+.s14 {
+    background-image:url('../img/logos/prefeitura-mamanguape.jpg');
+}
+.s15 {
+    background-image:url('../img/logos/prefeitura-municipal-de-conde-pb.png');
+}
+.s16 {
+    background-image:url('../img/logos/prefeitura-municipal-de-itaporanga-pb.png');
+}
+.s17 {
+    background-image:url('../img/logos/prefeitura-municipal-de-Lucena-pb.png');
+}
+/* .s18 {
+    background-image:url('../img/logos/');
+}
+.s19 {
+    background-image:url('../img/logos/');
+} */
+
+@media only screen and (max-width: 464px) {
+    .sponsorItem  {
+        max-width: 100%;
+    }
+  }
