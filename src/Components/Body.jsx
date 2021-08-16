@@ -14,7 +14,7 @@ function Body() {
        <Container >
            <br />
            <Row>
-                <SpecialTitle title="Welcome" subTitle="Creative Design Conference" />
+                <SpecialTitle title="Bem vindos" subTitle="I Seminário Interpolos UAB" />
                <Col sm={6}>
                     <div>
                         {/* <h2>Welcome to the Biggest</h2> */}

@@ -3,7 +3,7 @@ import Slide from 'react-reveal/Slide';
 
 function SpecialTitle(props) {
     return (
-        <div className="titleHead">
+        <div className={`${props.class} titleHead`}>
             <Slide right duration={800}>
                 <div className="backgroundTitle">
                     <h2>{props.title}</h2>

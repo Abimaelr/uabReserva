@@ -4,6 +4,7 @@ import '../assets/css/cover.css'
 import $ from 'jquery';
 import Particles from 'react-tsparticles';
 import config from '../assets/particlesjs-config';
+import Roll from 'react-reveal/Roll';
 
 function Cover() {
 
@@ -18,6 +19,12 @@ function Cover() {
     }, []);
     return (
         <div id="cover">
+            <div className="coverSpecial">
+                <Roll>
+                    <h2>20-22 SETEMBRO</h2>
+                </Roll>
+                    
+            </div>
             <div className="coverContainer">
             <Particles options={config} />
             {/* <video preload playsinline autoplay="true" controls={false} muted id="coverItem">
@@ -29,10 +36,10 @@ function Cover() {
             <div className="coverHead">
                 <div id="mainInfo">
                     <div className="infoBox">
-                        <div className="features">
+                        {/* <div className="features">
                             <ion-icon name="calendar"/>
                             <p>24 a 28 OUT</p>
-                        </div>
+                        </div> */}
                         <div className="features">
                             <ion-icon name="people"/>
                             <p>12 Palestrantes</p>
@@ -42,7 +49,9 @@ function Cover() {
                             <p>Even3</p>
                         </div>
                     </div>
-                    <div id="logo" />
+                    <div id="title">
+                        <h1>I SEMINÁRIO INTERPOLOS: <br /><span>15 ANOS DE UAB NA PARAÍBA</span></h1>
+                    </div>
                     <a href="#content">
                         <button className="Button">
                                 Saiba Mais

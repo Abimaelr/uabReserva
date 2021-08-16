@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,900;1,700&display=swap');
+@import url('http://fonts.cdnfonts.com/css/ocr-a-extended');
+
 .App {
     /* overflow-x: hidden; */
 }
@@ -27,6 +29,61 @@
     font-size: 5rem;
     box-shadow: inset 1px 1px 100px white;
     
+    
+}
+.coverSpecial{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    overflow-y: hidden;
+    width: 60vw;
+    /* background-color: orange; */
+    height: 100vh;
+    /* transform: translateY(100px); */
+    /* height: ; */
+    position:absolute;
+    transform: rotate(-15deg);
+}
+
+.coverSpecial h2 {
+    
+    font-family: 'Roboto';
+    font-size: 10vw;
+    font-weight: 800;
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(70, 70, 70);
+    /* text-shadow: 0px 0px 1px black; */
+    stroke-width: 5px;
+    text-align: center;
+    z-index: 0;
+    position: absolute;
+}
+
+
+/* .coverSpecial div{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    margin: auto;
+    font-size: 50px;
+
+    background-color: rgba(255, 166, 0, 0.802);
+  
+} */
+
+.coverSpecial div  h2{
+    margin: auto;
+   font-size: 15vw;
+    /* width: 300px; */
 }
 
 .animate {
@@ -38,6 +95,8 @@
     flex-wrap: wrap;
     overflow-y: hidden;
     height: 100vh;
+    /* width: 80%; */
+    padding: 0 0;
     
 }
 #tsparticles {
@@ -50,30 +109,40 @@
 }
 
 .coverHead {
-    padding: 30px 0;
+    padding: 0 0;
     display: flex;
-    /* display: none; */
     flex-wrap: wrap;
-    /* background: tomato; */
+    flex-direction: column;
+    /* background: rgba(255, 166, 0, 0.131); */
     width: 100vw;
     height:  100%;
     transform: translateY(0px);
     overflow: hidden;
     will-change: transform;
-    
     /* background: sandybrown; */
     /* transition: 0.5ms; */
     /* position:absolute; */
 }
 
-#logo {
-    height: 150px;
+#title {
+    height: 200px;
     width: 350px;
     margin: auto;
-    background-image: url('../img/logo.png');
+    /* background-image: url('../img/logo.png'); */
     background-size: 400px;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+#title h1 {
+    font-family: 'OCR A Extended', sans-serif;
+                                                
+}
+
+#title span{
+    font-family: 'OCR A Extended', sans-serif;
+    color: orange;
+    font-weight: 800;                                          
 }
 
 .titleBox {
@@ -101,8 +170,12 @@
     border-radius: 5px;
     color: white;
     width: 400px;
-    
-    margin: 30px auto;
+    align-self:flex-end;
+    margin: 50px 10%;
+    /* justify-self: center; */
+    /* margin: 0 50px; */
+    /* justify-content: right; */
+    /* margin: 30px auto; */
     /* margin-left: 12%; */
 
 }
