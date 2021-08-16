@@ -4,7 +4,7 @@ import '../assets/css/cover.css'
 import $ from 'jquery';
 import Particles from 'react-tsparticles';
 import config from '../assets/particlesjs-config';
-import Roll from 'react-reveal/Roll';
+import Zoom from 'react-reveal/Zoom';
 
 function Cover() {
 
@@ -19,12 +19,12 @@ function Cover() {
     }, []);
     return (
         <div id="cover">
-            <div className="coverSpecial">
+            {/* <div className="coverSpecial">
                 <Roll>
                     <h2>20 a 22 SETEMBRO</h2>
                 </Roll>
                     
-            </div>
+            </div> */}
             <div className="coverContainer">
             <Particles options={config} />
             {/* <video preload playsinline autoplay="true" controls={false} muted id="coverItem">
@@ -49,14 +49,18 @@ function Cover() {
                             <p>Even3</p>
                         </div>
                     </div>
-                    <div id="title">
-                        <h1>I SEMINÁRIO INTERPOLOS: <br /><span>15 ANOS DE UAB NA PARAÍBA</span></h1>
-                    </div>
-                    <a href="#content">
-                        <button className="Button">
+                    <Zoom duration={5000}>
+                        <div id="title" >
+                            <h1>I SEMINÁRIO INTERPOLOS: <br /><span>15 ANOS DE UAB NA PARAÍBA</span></h1>
+                            <h4>20 a 22 SET</h4>
+                        </div>
+                        
+                        <a href="#content">
+                            <button className="Button">
                                 Saiba Mais
-                        </button>
-                    </a>
+                            </button>
+                        </a>
+                    </Zoom>
                     </div>
                     {/* <div className="titleBox">
                         <h1>Futuro, Design,Tecnologia, Monetização e Eventos Corporativos</h1>

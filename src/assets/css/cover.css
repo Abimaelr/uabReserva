@@ -14,17 +14,13 @@
 
 #cover {
     display: flex;
-    /* background-color: rgb(253, 253, 253); */
     z-index: 1;
     background: black; 
-    /* background: rgb(0,0,0);
-    background: linear-gradient(0deg, #0D0C0E 0%, rgb(0, 16, 68) 80%); */
     overflow: hidden;
     
 }
 
 #coverItem {
-    
     position: absolute;
     right: 0;
     bottom: 0;
@@ -34,9 +30,7 @@
     margin: auto;
     color: white;
     font-size: 5rem;
-    box-shadow: inset 1px 1px 100px white;
-    
-    
+    box-shadow: inset 1px 1px 100px white; 
 }
 .coverSpecial{
     display: flex;
@@ -104,7 +98,7 @@
 }
 #tsparticles {
     height: 100%;
-    width: 70%;
+    width: 100%;
     background-position:center;
     /* background-attachment: fixed; */
     position: absolute;
@@ -128,10 +122,10 @@
 }
 
 #title {
-    height: 200px;
-    width: 350px;
+    height: fit-content;
+    /* width: 350px; */
     /* margin: 50px auto; */
-    text-align: right;
+    text-align: center;
     /* background-image: url('../img/logo.png'); */
     background-size: 400px;
     background-position: center;
@@ -140,6 +134,14 @@
 
 #title h1 {
     font-family: 'OCR A Extended', sans-serif;
+    font-size: 5vw;
+                                                
+}
+
+#title h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.5vw;
+    color: rgba(255, 255, 255, 0.775);
                                                 
 }
 
@@ -173,9 +175,9 @@
     height: min-content;
     border-radius: 5px;
     color: white;
-    width: 400px;
-    align-self:flex-end;
-    margin: 50px 10%;
+    width: 90%;
+    /* align-self:flex-end; */
+    margin: 100px auto;
     /* justify-self: center; */
     /* margin: 0 50px; */
     /* justify-content: right; */
