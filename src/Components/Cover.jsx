@@ -21,7 +21,7 @@ function Cover() {
         <div id="cover">
             <div className="coverSpecial">
                 <Roll>
-                    <h2>20-22 SETEMBRO</h2>
+                    <h2>20 a 22 SETEMBRO</h2>
                 </Roll>
                     
             </div>

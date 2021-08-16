@@ -34,12 +34,9 @@ function Schedule() {
             <div className="schedule">
                 <h3>DIA 1</h3>
                 <h4>20 de Setembro</h4>
-                <ul>
-                    <li>atividade</li>
-                    <li>atividade</li>
-                    <li>atividade</li>
-                    <li>atividade</li>
-                </ul>
+                <h6>ABERTURA</h6>
+                <br />
+                <br />
                 <OffCanvasElement> 
                     <h2>IOAOSIIOAS</h2>
                 </OffCanvasElement>
@@ -47,22 +44,22 @@ function Schedule() {
             <div className="schedule">
                 <h3>DIA 2</h3>
                 <h4>21 de Setembro</h4>
-                <ul>
-                    <li>atividade</li>
-                    <li>atividade</li>
-                    <li>atividade</li>
-                    <li>atividade</li>
-                </ul>
+                <h6>PALESTRAS</h6>
+                <br />
+                <br />
+                <OffCanvasElement> 
+                    <h2>IOAOSIIOAS</h2>
+                </OffCanvasElement>
             </div>
             <div className="schedule">
                 <h3>DIA 3</h3>
                 <h4>22 de Setembro</h4>
-                <ul>
-                    <li>atividade</li>
-                    <li>atividade</li>
-                    <li>atividade</li>
-                    <li>atividade</li>
-                </ul>
+                <h6>EXPOSIÇÕES E ENCERRAMENTO</h6>
+                <br />
+                <br />
+                <OffCanvasElement> 
+                    <h2>IOAOSIIOAS</h2>
+                </OffCanvasElement>
             </div>
         </div>
     )

@@ -27,7 +27,7 @@ const responsive = {
 function Sponsors() {
     return (
         <>
-          <SpecialTitle title="Apoio" />
+          <SpecialTitle title="Polos" subTitle="Parceiros"/>
           <div id="carousel">
               <Carousel
               
