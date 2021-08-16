@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,900;1,700&display=swap');
-@import url('http://fonts.cdnfonts.com/css/ocr-a-extended');
+/* @import url('http://fonts.cdnfonts.com/css/ocr-a-extended'); */
+
+@font-face {
+    font-family: 'OCR A Extended';
+    font-style: normal;
+    font-weight: 400;
+    src: local('OCR A Extended'), url('../OCRAEXT_2.woff') format('woff');
+}
 
 .App {
     /* overflow-x: hidden; */
