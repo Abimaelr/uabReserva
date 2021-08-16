@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <audio src={audio} autoPlay loop/>
+        <audio autoplay loop src={audio} />
         <Switch>
           <Route exact path="/uab/" component={Home}/>
           <Route exact path="/uab/about" component={About}/>
