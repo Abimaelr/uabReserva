@@ -1,5 +1,31 @@
-import React from 'react';
+import React,{useState} from 'react';
+import { Button } from 'react-bootstrap';
+import Offcanvas from 'react-bootstrap/Offcanvas'
 import '../assets/css/schedule.css';
+
+
+function OffCanvasElement(props) {
+    const [show, setShow] = useState(false);
+  
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+  
+    return (
+      <>
+        <Button variant="light" onClick={handleShow} className="me-2">
+          Saiba mais
+        </Button>
+        <Offcanvas show={show} onHide={handleClose}>
+          <Offcanvas.Header closeButton>
+            <Offcanvas.Title>{props.Title}</Offcanvas.Title>
+          </Offcanvas.Header>
+          <Offcanvas.Body>
+            {props.children}
+          </Offcanvas.Body>
+        </Offcanvas>
+      </>
+    );
+  }
 
 function Schedule() {
     return (
@@ -14,6 +40,9 @@ function Schedule() {
                     <li>atividade</li>
                     <li>atividade</li>
                 </ul>
+                <OffCanvasElement> 
+                    <h2>IOAOSIIOAS</h2>
+                </OffCanvasElement>
             </div>
             <div className="schedule">
                 <h3>DIA 2</h3>
