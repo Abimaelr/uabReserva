@@ -46,7 +46,7 @@ function Body() {
                 <HorizontalCard icon="la-users" title="Palestras Temáticas" description=" Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. "/>
                 <HorizontalCard icon="la-school" title="Exposições Interpolos" description=" Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. "/>
                 <HorizontalCard icon="la-tools" title="Ferramentas Tecnológicas" description=" Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. "/>
-                <HorizontalCard icon="la-music" title="Apresentação Cultural" description=" Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. "/>
+                <HorizontalCard icon="la-music" title="Apresentações Culturais" description=" Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. "/>
                 <HorizontalCard icon="la-history" title="Diálogos e Memórias" description=" Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. "/>
                 <HorizontalCard icon="la-network-wired" title="Perspectivas Transdisciplinares" description=" Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. "/>
             </div>

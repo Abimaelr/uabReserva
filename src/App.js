@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import './App.css';
 import 'animate.css/animate.css'
+import '../src/assets/css/general.css'
 import audio from './assets/audio.mp3'
 
 function App() {
