@@ -10,6 +10,7 @@ import './App.css';
 import 'animate.css/animate.css'
 import '../src/assets/css/general.css'
 import audio from './assets/audio.mp3'
+import Footer from './Components/Footer';
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
           <Route exact path="/uab/about" component={About}/>
         </Switch>
       </Router>
+      <Footer />
     </div>
   );
 }

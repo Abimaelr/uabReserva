@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import {Container, Row, Col} from 'react-bootstrap';
 import HorizontalCard from './HorizontalCard';
@@ -9,6 +9,9 @@ import Sponsors from './Sponsors';
 import Schedule from './Schedule';
 
 function Body() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return (
        <div id="content">
        <Container >
