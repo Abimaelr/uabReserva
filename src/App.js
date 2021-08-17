@@ -10,7 +10,6 @@ import './App.css';
 import 'animate.css/animate.css'
 import '../src/assets/css/general.css'
 import audio from './assets/audio.mp3'
-import Footer from './Components/Footer';
 
 function App() {
 
@@ -20,14 +19,15 @@ function App() {
         <ReactAudioPlayer
           src={audio}
           autoPlay
-          volume={0.4}
+          loop
+          volume={0.5}
+          // controls
         />
         <Switch>
           <Route exact path="/uab/" component={Home}/>
           <Route exact path="/uab/about" component={About}/>
         </Switch>
       </Router>
-      <Footer />
     </div>
   );
 }
