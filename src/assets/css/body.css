@@ -13,6 +13,11 @@
    
 }
 
+span {
+    color: orange;
+    font-weight: 700;
+}
+
 #features {
     width: 100%;
     display: flex;

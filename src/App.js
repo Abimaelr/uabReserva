@@ -1,5 +1,6 @@
 import Home from './Pages/Home';
 import About from './Components/About';
+import ReactAudioPlayer from 'react-audio-player';
 import {
   BrowserRouter as Router,
   Switch,
@@ -9,18 +10,24 @@ import './App.css';
 import 'animate.css/animate.css'
 import '../src/assets/css/general.css'
 import audio from './assets/audio.mp3'
+import Footer from './Components/Footer';
 
 function App() {
 
   return (
     <div className="App">
       <Router>
-        <audio autoplay loop src={audio} />
+        <ReactAudioPlayer
+          src={audio}
+          autoPlay
+          volume={0.4}
+        />
         <Switch>
           <Route exact path="/uab/" component={Home}/>
           <Route exact path="/uab/about" component={About}/>
         </Switch>
       </Router>
+      <Footer />
     </div>
   );
 }

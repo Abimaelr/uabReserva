@@ -1,0 +1,48 @@
+#footer {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+#footer i{
+    margin: 0 auto;
+    padding: 0;
+    transform: translateY(3px);
+    color: red;
+    font-size:larger;
+}
+
+#footer p{
+    margin: auto;
+    
+}
+.icons {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    max-width: 280px;
+    /* background-color: red; */
+    justify-content:space-evenly;
+}
+
+.icons p{
+    width: fit-content;
+    margin: auto 0;
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.icons img{
+    margin: auto 3px;
+    max-height: 70px;
+    width: auto;
+}
+
+#ufpb{
+    filter:invert();
+}
+
+#if{
+    filter: invert() brightness(100000);
+}

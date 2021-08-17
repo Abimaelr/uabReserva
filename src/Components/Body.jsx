@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import {Container, Row, Col} from 'react-bootstrap';
 import HorizontalCard from './HorizontalCard';
@@ -9,6 +9,9 @@ import Sponsors from './Sponsors';
 import Schedule from './Schedule';
 
 function Body() {
+    useEffect(() => {
+        window.scrollTo(0, 600);
+      }, []);
     return (
        <div id="content">
        <Container >
@@ -20,7 +23,7 @@ function Body() {
                         {/* <h2>Welcome to the Biggest</h2> */}
                         {/* <h2>Creative Design Conference</h2> */}
                         <br/>
-                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
+                        <p>Para celebrar os 15 anos da Universidade Aberta do Brasil, estamos promovendo o <span>I SEMINÁRIO INTERPOLOS: 15 anos da UAB na Paraíba</span> visando promover reflexões sobre a formação universitária de milhares de jovens, neste contexto de século XXI .  Teremos discussões em torno de temas como  Tecnologias na Educação, Gamificação  do ensino,  Cultura digital,  Ensino híbrido, Educação Emocional e o Sistema da UAB  nos Polos da Paraíba.</p>
                         <br />
                         <Link to="/uab/about">
                             <button id="speakersBtn">SOBRE</button>

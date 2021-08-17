@@ -8,7 +8,6 @@ function Home() {
       <>
         <Cover />
         <Body />
-        <Footer />
       </>
     )
 }
