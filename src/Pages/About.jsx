@@ -1,7 +1,7 @@
 import React,  { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import {Container, Row, Col} from 'react-bootstrap';
-import SpecialTitle from './SpecialTitle';
+import SpecialTitle from '../Components/SpecialTitle';
 import '../assets/css/about.css';
 
 function About() {
