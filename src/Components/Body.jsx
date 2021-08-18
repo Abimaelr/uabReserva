@@ -7,6 +7,7 @@ import Speakers from './Speakers';
 import SpecialTitle from './SpecialTitle';
 import Sponsors from './Sponsors';
 import Schedule from './Schedule';
+import girl from '../assets/img/m.png';
 
 function Body() {
     useEffect(() => {
@@ -16,9 +17,9 @@ function Body() {
        <div id="content">
        <Container >
            <br />
-           <Row>
+           <Row className="section">
                 <SpecialTitle title="Bem vindos" subTitle="I Seminário Interpolos UAB" />
-               <Col sm={6}>
+               <Col md={6}>
                     <div>
                         {/* <h2>Welcome to the Biggest</h2> */}
                         {/* <h2>Creative Design Conference</h2> */}
@@ -31,11 +32,9 @@ function Body() {
                        
                     </div>
                </Col>
-               <Col>
+               <Col md={6}>
                <div id="imageD">
-                    <div id="img1"/>
-                    <div id="img2"/>
-                    <div id="img3"/>
+                    <img src={girl} alt="Foto" />
                </div>
                </Col>
            </Row>
