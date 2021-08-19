@@ -40,14 +40,14 @@ function Cover() {
                             <ion-icon name="calendar"/>
                             <p>24 a 28 OUT</p>
                         </div> */}
-                        <div className="features">
+                        {/* <div className="features">
                             <ion-icon name="people"/>
                             <p>12 Palestrantes</p>
                         </div>
                         <div className="features">
                             <ion-icon name="location"/>
                             <p>Even3</p>
-                        </div>
+                        </div> */}
                     </div>
                     <Zoom duration={5000}>
                         <div id="title" >

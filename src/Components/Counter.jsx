@@ -14,7 +14,7 @@ function Counter() {
     const [start, setStart] = useState(false);
 
     const calculateTime = () => {
-        const date = new Date("2021-08-25T15:35:58.000Z").getTime() - Date.now();
+        const date = new Date("2021-09-20T09:00:58.000Z").getTime() - Date.now();
        
         const format = (time) => {
             const value = `${time}`;
@@ -45,7 +45,7 @@ function Counter() {
     
     if(!start) return (<div></div>);
 
-    if(start) return (
+    if(start && Days > 0) return (
         <div id="counter">
             <div className="dateItem">
                 <h2>{Days}</h2>
@@ -64,7 +64,9 @@ function Counter() {
                 <p>SEGUNDOS</p>
             </div>
         </div>
+        
     )
+    return (<div></div>);
 }
 
 export default Counter;

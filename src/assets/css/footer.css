@@ -1,7 +1,14 @@
+@font-face {
+    font-family: 'OCR A Extended';
+    font-style: normal;
+    font-weight: 400;
+    src: local('OCR A Extended'), url('../OCRAEXT_2.woff') format('woff');
+}
+
 #footer {
     background-color: black;
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'OCR A Extended', sans-serif;
 }
 
 #footer i{
@@ -14,7 +21,8 @@
 
 #footer p{
     margin: auto;
-    
+    font-family: 'OCR A Extended', sans-serif;
+    padding: 10px 0;
 }
 .icons {
     margin: auto;

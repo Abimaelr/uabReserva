@@ -6,7 +6,7 @@
 .speakerItem {
     display: flex;
 
-    height: 300px;
+    height: 400px;
     width: 100px;
     background-color: black;
     transition: 400ms;
@@ -16,7 +16,7 @@
 
 .speaker {
     overflow: hidden;
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
@@ -67,6 +67,7 @@
 
 .speakerItem:hover{
     /* flex-grow: 2; */
+    background-color: orange;
     width: 200px;
     position: relative;
 }
@@ -83,18 +84,18 @@
     font-size: xx-large;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     #speakerContent {
         flex-wrap: wrap;
     }
     .speakerItem {
-        width: 30%;
+        width: 200px;
         margin: 10px;
     }
     .speakerItem:hover{
         /* flex-grow: 2; */
-        width: 30%;
-        flex-grow: 3;
+        /* width: 100%; */
+        flex-grow: 5;
         position: relative;
     }
   }

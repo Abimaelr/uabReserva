@@ -17,7 +17,7 @@
     z-index: 1;
     background: black; 
     overflow: hidden;
-    
+    margin: auto;
 }
 
 #coverItem {
@@ -38,7 +38,7 @@
     justify-content: center;
     flex-direction: column;
     padding: 0;
-    margin: 0;
+    margin: auto;
     overflow-y: hidden;
     width: 60vw;
     height: 100vh;
@@ -94,6 +94,7 @@
     height: 100vh;
     width: 100%;
     padding: 0 0;
+    margin: auto;
     
 }
 #tsparticles {
@@ -116,6 +117,7 @@
     transform: translateY(0px);
     overflow: hidden;
     will-change: transform;
+    margin: auto;
     /* background: sandybrown; */
     /* transition: 0.5ms; */
     /* position:absolute; */
@@ -125,6 +127,7 @@
     height: fit-content;
     /* width: 350px; */
     /* margin: 50px auto; */
+    margin: auto;
     text-align: center;
     /* background-image: url('../img/logo.png'); */
     background-size: 400px;
