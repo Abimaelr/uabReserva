@@ -70,11 +70,11 @@ function Body() {
         <div className="event">
             <SpecialTitle title="O evento" subTitle="Clique no botão abaixo" />
             
-            <button className="Button">
-                <Link>
+            <Link  to="/uab/event">
+                <button  className="Button access">
                     ACESSE AQUI!
-                </Link>
-            </button>
+                </button>
+            </Link>
         </div>
         <Sponsors />
        </div>

@@ -9,6 +9,7 @@ import './App.css';
 import 'animate.css/animate.css'
 import '../src/assets/css/general.css'
 import Footer from './Components/Footer';
+import Event from './Pages/Event';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Switch>
           <Route exact path="/uab/" component={Home}/>
           <Route exact path="/uab/about" component={About}/>
+          <Route exact path="/uab/event" component={Event}/>
         </Switch>
       </Router>
       <Footer />

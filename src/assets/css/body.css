@@ -166,7 +166,7 @@ background: linear-gradient(0deg, black 0%, rgba(255, 166, 0, 0.3) 30%, black 10
 
 .event button{
     margin: 0 auto;
-    width: 80%;
+    min-width: 330px;
 }
 
 .event button a{
