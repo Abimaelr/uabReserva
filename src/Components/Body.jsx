@@ -34,6 +34,8 @@ function Body() {
                </Col>
                <Col md={6}>
                <div id="imageD">
+                    <div id="ball1" />
+                    <div id="ball2"/>
                     <img src={girl} alt="Foto" />
                </div>
                </Col>
