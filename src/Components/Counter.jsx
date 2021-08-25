@@ -41,7 +41,7 @@ function Counter() {
         // await music.play();
     }
 
-    document.body.addEventListener("mousemove", function () {
+    window.addEventListener("load", function () {
         if(start && Days > 0)
             music.play()
     })
