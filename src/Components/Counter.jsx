@@ -36,20 +36,17 @@ function Counter() {
         setDays(fDays);
     }
 
-    const playAudio = async () => {
-        music.load();
-        // await music.play();
-    }
+
 
     window.addEventListener("load", function () {
+        music.load();
+        console.log("carreguei")
         if(start && Days > 0)
             music.play()
     })
 
     useEffect( () => {
         calculateTime();
-        playAudio();
-
     }, [])
 
     useEffect(() => () => music.pause(), [])
