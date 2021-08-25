@@ -49,7 +49,7 @@ function Counter() {
     if(start && Days > 0) return (
         <>
             <div id="counter">
-                <audio autoPlay>
+                <audio autoPlay preload="metadata">
                     <source src={m} type="audio/ogg"/>
                     <source src={m} type="audio/mpeg"/>
                 </audio>
