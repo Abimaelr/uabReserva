@@ -35,11 +35,16 @@ function Counter() {
         setHours(format(fHours));
         setDays(fDays);
     }
-    useEffect(() => {
-        calculateTime();
+
+    const playAudio = async () => {
         music.load();
-        music.play();
-      
+        await music.play();
+    }
+
+    useEffect( () => {
+        calculateTime();
+        playAudio();
+
     }, [])
 
     useEffect(() => () => music.pause(), [])
