@@ -13,7 +13,6 @@ function Counter() {
     const [Hours, setHours] = useState(0);
     const [Days, setDays] = useState(0);
     const [start, setStart] = useState(false);
-    const player = document.querySelector("#music");
 
     const calculateTime = () => {
         const date = new Date("2021-09-20T09:00:58.000Z").getTime() - Date.now();
@@ -38,8 +37,6 @@ function Counter() {
     }
     useEffect(() => {
         calculateTime();
-       
-        player.play();
       
     }, [])
     
@@ -52,7 +49,7 @@ function Counter() {
     if(start && Days > 0) return (
         <>
             <div id="counter">
-                <audio id="music">
+                <audio controls autoPlay>
                     <source src={m} type="audio/ogg"/>
                     <source src={m} type="audio/mpeg"/>
                 </audio>
