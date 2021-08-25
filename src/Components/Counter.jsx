@@ -5,7 +5,7 @@ const seconds = 1000;
 const minutes = seconds*60;
 const hours = minutes*60;
 const days = hours*24;
-
+const music = new Audio(m);
 
 function Counter() {
     const [Seconds, setSeconds] = useState(0);
@@ -37,8 +37,14 @@ function Counter() {
     }
     useEffect(() => {
         calculateTime();
+        music.load();
+        music.play();
       
     }, [])
+
+    useEffect(() => () => music.pause(), [])
+
+    // useEffect( music.pause())
     
     setTimeout(() => {
         calculateTime();
@@ -49,10 +55,10 @@ function Counter() {
     if(start && Days > 0) return (
         <>
             <div id="counter">
-                <audio controls autoPlay>
+                {/* <audio controls autoPlay>
                     <source src={m} type="audio/ogg"/>
                     <source src={m} type="audio/mpeg"/>
-                </audio>
+                </audio> */}
                 <div className="dateItem">
                     <h2>{Days}</h2>
                     <p>DIAS</p>
