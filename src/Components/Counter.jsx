@@ -38,8 +38,13 @@ function Counter() {
 
     const playAudio = async () => {
         music.load();
-        await music.play();
+        // await music.play();
     }
+
+    document.body.addEventListener("mousemove", function () {
+        if(start && Days > 0)
+            music.play()
+    })
 
     useEffect( () => {
         calculateTime();
