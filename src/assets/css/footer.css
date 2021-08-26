@@ -11,6 +11,20 @@
     font-family: 'OCR A Extended', sans-serif;
 }
 
+.link {
+    text-decoration: none;
+}
+
+a , a:hover, a:focus, a:active  {
+    text-decoration: none;
+}
+
+a p{
+    text-decoration: none;
+    color: orange;
+
+}
+
 #footer i{
     margin: 0 auto;
     padding: 0;

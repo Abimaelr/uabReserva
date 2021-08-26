@@ -8,7 +8,7 @@ import Speakers from './Speakers';
 import SpecialTitle from './SpecialTitle';
 import Sponsors from './Sponsors';
 import Schedule from './Schedule';
-import girl from '../assets/img/m.png';
+import img from '../assets/img/m.png';
 
 function Body() {
     // useEffect(() => {
@@ -38,9 +38,9 @@ function Body() {
                <Col md={6}>
                <Fade right duration={2000}>
                     <div id="imageD">
-                        <div id="ball1" />
-                        <div id="ball2"/>
-                        <img src={girl} alt="Foto" />
+                        {/* <div id="ball1" />
+                        <div id="ball2"/> */}
+                        <img src={img} alt="Foto" />
                     </div>
                </Fade>
                </Col>
@@ -68,7 +68,7 @@ function Body() {
         <SpecialTitle title="Agenda" subTitle="Programação do Evento" />
         <Schedule />
         <div className="event">
-            <SpecialTitle title="O evento" subTitle="Clique no botão abaixo" />
+            <SpecialTitle title="O evento" subTitle="Participe do Seminário" />
             
             <Link  to="/uab/event">
                 <button  className="Button access">

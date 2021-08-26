@@ -9,6 +9,10 @@ function Footer() {
     return (
         <Container fluid  id="footer">
             <Row>
+                <a className="link" target="_blank" href="mailto:seminariouab15@gmail.com" rel="noreferrer">
+                <p>&#9993; seminariouab15@gmail.com</p></a>
+            </Row>
+            <Row>
                 <Col xs={8} sm={6}>
                     <div className="icons">
                         <p>Promovido por: </p>
