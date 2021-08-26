@@ -40,7 +40,7 @@ function Counter() {
 
 
 
-    window.addEventListener('scroll', async function () {
+    document.addEventListener('scroll', async function () {
        
         if(start && Days > 0 && !play){
             music.load();
