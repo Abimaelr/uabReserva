@@ -38,12 +38,12 @@ function Counter() {
 
 
 
-    window.addEventListener("load", function () {
-        music.load();
-        console.log("carreguei")
-        if(start && Days > 0)
-            music.play()
-    })
+    // window.addEventListener('scroll', function () {
+    //     music.load();
+    //     console.log("carreguei")
+    //     if(start && Days > 0)
+    //         music.play()
+    // })
 
     useEffect( () => {
         calculateTime();

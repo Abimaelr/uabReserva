@@ -47,19 +47,19 @@ function Body() {
            </Row>
        </Container>
        <SpecialTitle title="Abertura" subTitle="20 de Setembro" />
-       <iframe width="100%" height="400px" src="https://www.youtube.com/embed/gvjWQUXUjo0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" />
+       <iframe width="80%" height="400px" src="https://www.youtube.com/embed/gvjWQUXUjo0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" />
         <div id="features">
             <SpecialTitle title="Conteúdo" subTitle="O que você verá aqui" />
             <div>
                 {/* <h2>Participe conosco</h2> */}
             </div>
             <div id="cardContainer">
-                <HorizontalCard icon="la-users" title="Palestras Temáticas" description=" Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. "/>
-                <HorizontalCard icon="la-school" title="Exposições Interpolos" description=" Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. "/>
-                <HorizontalCard icon="la-tools" title="Ferramentas Tecnológicas" description=" Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. "/>
-                <HorizontalCard icon="la-music" title="Apresentações Culturais" description=" Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. "/>
-                <HorizontalCard icon="la-history" title="Diálogos e Memórias" description=" Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. "/>
-                <HorizontalCard icon="la-network-wired" title="Perspectivas Transdisciplinares" description=" Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. "/>
+                <HorizontalCard icon="la-users" title="Palestras Temáticas" description="Abordagem de conceitos e de significações ligadas às Tecnologias na Educação, gamificação do ensino, cultura digital, ensino híbrido e Educação emocional."/>
+                <HorizontalCard icon="la-school" title="Exposições Interpolos" description=" Explanações das equipes de Polos sobre o sistema UAB e a relevância das ações articuladas para o processo educativo."/>
+                <HorizontalCard icon="la-tools" title="Ferramentas Tecnológicas" description="Abordagens das ferramentas tecnológicas disponíveis para o processo de ensino-aprendizagem."/>
+                <HorizontalCard icon="la-music" title="Apresentações Culturais" description="Apresentações culturais de músicas instrumentais, poesia e cordel com alunos de vários Polos."/>
+                <HorizontalCard icon="la-history" title="Diálogos e Memórias" description=" Registros fotográficos que contam um pouco sobre a história dos Polos, eternizando momentos."/>
+                <HorizontalCard icon="la-network-wired" title="Perspectivas Transdisciplinares" description="Enfoque pluralista por meio das interconexões entre os saberes, as teorias e as práticas."/>
             </div>
         </div>
         <SpecialTitle title="Palestrantes" subTitle="Quem Somos?" />

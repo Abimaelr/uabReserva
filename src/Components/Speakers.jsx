@@ -7,6 +7,7 @@ import gilmar from '../assets/img/Gilmar.png';
 import fernanda from '../assets/img/Fernanda.png';
 import ercules from '../assets/img/Ercules.png';
 import daniele from '../assets/img/Daniele.png';
+import lucidio from '../assets/img/Lucidio.png';
 
 function Speakers() {
     return (
@@ -14,16 +15,30 @@ function Speakers() {
         <Fade left>
             <div id="speakerContent">
                 <Speaker
-                    url={priscila}
-                    name="Priscila Dias"
-                    title="Empreendedora Digital"
-                    description="lorem..."
+                    url={lucidio}
+                    name="Lucídio dos Anjos"
+                    title="Professor"
+                    description="Bacharel em Ciência da Computação (UFC), Mestre em Engenharia de Sistemas e Computação (UFRJ), Doutor em Engenharia de Sistemas e Computação (UFRJ). Professor Titular da Universidade Federal da Paraíba."
+                    // ig="https://google.com"
+                /> 
+                <Speaker
+                    url={daniele}
+                    name="Daniele Dias"
+                    title="Professora"
+                    description="Pedagoga, Mestra e Doutora em Educação. Pesquisadora na Área de Tecnologias Educacionais, Aprendizagem e Formação Docente, vinculada ao Depto de Metodologia da Educação/CE da UFPB."
+                    // ig="https://google.com"
+                />
+                <Speaker
+                    url={ercules}
+                    name="Ercules Diniz"
+                    title="Professor"
+                    description="Mestre e Doutorando em Educação pelo PPGE/UFPB. Bacharel e Licenciado em Ciências Biológicas pela UFPB."
                     // ig="https://google.com"
                 />
                  <Speaker
                     url={gilmar}
                     name="Gilmar Oliveira"
-                    title="Mestre em Aprendizagem"
+                    title="Professor"
                     description="Psicólogo, Neuropsicólogo, Psicopedagogo, especialista e mestre em Aprendizagem. Atua em clínica e escolas. Consultor educacional e professor universitário."
                     // ig="https://google.com"
                 />
@@ -35,19 +50,12 @@ function Speakers() {
                     // ig="https://google.com"
                 />
                 <Speaker
-                    url={ercules}
-                    name="Ercules Diniz"
-                    title="Professor"
-                    description="Mestre e Doutorando em Educação pelo PPGE/UFPB. Bacharel e Licenciado em Ciências Biológicas pela UFPB."
-                    // ig="https://google.com"
-                />
-                <Speaker
-                    url={daniele}
-                    name="Daniele Dias"
+                    url={priscila}
+                    name="Priscila Dias"
                     title="Professora"
-                    description="lorem..."
+                    description="Atua como Chefe da Divisão de Formação e Eventos Digitais da SEDEC/JP; Pedagoga e Desenhista Educacional para EaD."
                     // ig="https://google.com"
-                />                
+                />            
             </div>
             <div id="speakerContent">
             </div>

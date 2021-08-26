@@ -49,7 +49,7 @@ function About() {
                                 Historicamente, o ensino a distância no Brasil surgiu como uma
                                 modalidade decorrente da necessidade de oportunizar cursos para estudantes
                                 que, por inúmeras razões, não podiam realizá-los de forma presencial. No início
-                                de sua implementação, em 2008, a UAB chegou a contar com a articulação de
+                                de sua implementação, em 2006, a UAB chegou a contar com a articulação de
                                 mais de 100 IES e, aproximadamente, 800 Polos de Apoio Presencial,
                                 implementados e mantidos por municípios e/ou estados. Neste ano, a UAB
                                 completa seus 15 anos e, atualmente, mantem-se presente em mais de 850

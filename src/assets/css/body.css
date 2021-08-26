@@ -73,6 +73,7 @@
 span {
     color: orange;
     font-weight: 700;
+    white-space: nowrap;
 }
 
 #features {
