@@ -26,7 +26,7 @@ function Body() {
                         {/* <h2>Creative Design Conference</h2> */}
                         <br/>
                         <Fade down duration={2000}>
-                            <p>Para celebrar os 15 anos da Universidade Aberta do Brasil, estamos promovendo o <span>I SEMINÁRIO INTERPOLOS: 15 anos da UAB na Paraíba</span> visando promover reflexões sobre a formação universitária de milhares de jovens, neste contexto de século XXI .  Teremos discussões em torno de temas como  Tecnologias na Educação, Gamificação  do ensino,  Cultura digital,  Ensino híbrido, Educação Emocional e o Sistema da UAB  nos Polos da Paraíba.</p>
+                            <p>Para celebrar os 15 anos da Universidade Aberta do Brasil, estamos promovendo o <span>I SEMINÁRIO INTERPOLOS: 15 anos da UAB na Paraíba</span> visando instigar reflexões sobre a formação universitária de milhares de jovens, neste contexto de século XXI .  Teremos discussões em torno de temas como  Tecnologias na Educação, Gamificação  do ensino,  Cultura digital,  Ensino híbrido, Educação Emocional e o Sistema da UAB  nos Polos da Paraíba.</p>
                         </Fade>
                         <br />
                         <Link to="/uab/about">
