@@ -40,13 +40,21 @@ function Counter() {
 
 
 
-    window.addEventListener('mousemove', function () {
+    window.addEventListener('scroll', async function () {
        
         if(start && Days > 0 && !play){
             music.load();
             music.volume = 0.5;
             music.muted = false;
-            music.play()
+            const playPromise = await music.play()
+            if (playPromise !== undefined) {
+                playPromise.then(_ => {
+
+                })
+                .catch(error => {
+                  console.log(error);
+                });
+              }
             play = !play;
         }
     })
