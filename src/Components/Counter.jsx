@@ -46,7 +46,7 @@ function Counter() {
             music.load();
             music.volume = 0.5;
             music.muted = false;
-            const playPromise = await music.play()
+            const playPromise = music.play()
             if (playPromise !== undefined) {
                 playPromise.then(_ => {
 
@@ -55,7 +55,7 @@ function Counter() {
                   console.log(error);
                 });
               }
-            play = !play;
+            play = true;
         }
     })
 
