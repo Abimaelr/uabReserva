@@ -7,6 +7,8 @@ const hours = minutes*60;
 const days = hours*24;
 const music = new Audio(m);
 
+let play = false;
+
 function Counter() {
     const [Seconds, setSeconds] = useState(0);
     const [Minutes, setMinutes] = useState(0);
@@ -38,20 +40,29 @@ function Counter() {
 
 
 
-    // window.addEventListener('scroll', function () {
-    //     music.load();
-    //     console.log("carreguei")
-    //     if(start && Days > 0)
-    //         music.play()
-    // })
+    window.addEventListener('mousemove', function () {
+       
+        if(start && Days > 0 && !play){
+            music.load();
+            music.volume = 0.5;
+            music.play()
+            play = !play;
+        }
+    })
 
     useEffect( () => {
         calculateTime();
     }, [])
 
-    useEffect(() => () => music.pause(), [])
+    // useEffect(() => () => music.pause(), [])
 
     // useEffect( music.pause())
+    // setInterval(()=> {
+    //     music.load();
+    //     console.log("carreguei")
+    //     if(start && Days > 0)
+    //         music.play()
+    // }, 2000)
     
     setTimeout(() => {
         calculateTime();
