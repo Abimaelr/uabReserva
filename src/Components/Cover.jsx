@@ -35,20 +35,6 @@ function Cover() {
             </video> */}
             <div className="coverHead">
                 <div id="mainInfo">
-                    <div className="infoBox">
-                        {/* <div className="features">
-                            <ion-icon name="calendar"/>
-                            <p>24 a 28 OUT</p>
-                        </div> */}
-                        {/* <div className="features">
-                            <ion-icon name="people"/>
-                            <p>12 Palestrantes</p>
-                        </div>
-                        <div className="features">
-                            <ion-icon name="location"/>
-                            <p>Even3</p>
-                        </div> */}
-                    </div>
                     <Zoom duration={5000}>
                         <div id="title" >
                             <h1>I SEMINÁRIO INTERPOLOS: <br /><span>15 ANOS DE UAB NA PARAÍBA</span></h1>

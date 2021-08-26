@@ -45,6 +45,7 @@ function Counter() {
         if(start && Days > 0 && !play){
             music.load();
             music.volume = 0.5;
+            music.muted = false;
             music.play()
             play = !play;
         }
