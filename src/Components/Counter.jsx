@@ -50,7 +50,7 @@ function Counter() {
     if(start && Days > 0) return (
         <>
             <div id="counter">
-            <audio muted={mute} autoPlay>
+            <audio controls muted autoPlay>
                 <source src="horse.ogg" type="audio/ogg" />
                 <source src={m} type="audio/mpeg" />
                 Your browser does not support the audio tag.
