@@ -5,7 +5,6 @@ const seconds = 1000;
 const minutes = seconds*60;
 const hours = minutes*60;
 const days = hours*24;
-let mute = true;
 
 function Counter() {
     const [Seconds, setSeconds] = useState(0);
@@ -51,7 +50,6 @@ function Counter() {
     if(start && Days > 0) return (
         <>
             <div id="counter">
-            {/* <iframe src={m} allow="autoplay" muted={mute} id="audio" title="audio"></iframe> */}
                 <div className="dateItem">
                     <h2>{Days}</h2>
                     <p>DIAS</p>
