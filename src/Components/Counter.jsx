@@ -38,11 +38,12 @@ function Counter() {
 
     useEffect( () => {
         calculateTime();
-        mute = false;
+       
     }, [])
 
     setTimeout(() => {
         calculateTime();
+        mute = false;
     },1000);
     
     if(!start) return (<div></div>);
@@ -50,7 +51,7 @@ function Counter() {
     if(start && Days > 0) return (
         <>
             <div id="counter">
-            <iframe src={m}allow="autoplay" id="audio"></iframe>
+            <iframe src={m} allow="autoplay" muted={mute} id="audio" title="audio"></iframe>
                 <div className="dateItem">
                     <h2>{Days}</h2>
                     <p>DIAS</p>
