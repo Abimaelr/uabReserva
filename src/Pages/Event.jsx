@@ -19,7 +19,7 @@ function Event() {
             <br />
                 <br />
                 <br />
-            <Link to="/uab">
+            <Link to="/">
                 <button id="speakersBtn">Voltar</button>
             </Link>
             <br />

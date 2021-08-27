@@ -61,7 +61,7 @@ function About() {
                     </Col>
                 </Row>
                 <Row>
-                    <Link to="/uab">
+                    <Link to="/">
                         <button id="speakersBtn">Voltar</button>
                     </Link>
                 </Row>

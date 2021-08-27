@@ -29,7 +29,7 @@ function Body() {
                             <p>Para celebrar os 15 anos da Universidade Aberta do Brasil, estamos promovendo o <span>I SEMINÁRIO INTERPOLOS: 15 anos da UAB na Paraíba</span> visando instigar reflexões sobre a formação universitária de milhares de jovens, neste contexto de século XXI .  Teremos discussões em torno de temas como  Tecnologias na Educação, Gamificação  do ensino,  Cultura digital,  Ensino híbrido, Educação Emocional e o Sistema da UAB  nos Polos da Paraíba.</p>
                         </Fade>
                         <br />
-                        <Link to="/uab/about">
+                        <Link to="/about">
                             <button id="speakersBtn">SOBRE</button>
                         </Link>
                        
@@ -70,7 +70,7 @@ function Body() {
         <div className="event">
             <SpecialTitle title="O evento" subTitle="Participe do Seminário" />
             
-            <Link  to="/uab/event">
+            <Link  to="/event">
                 <button  className="Button access">
                     ACESSE AQUI!
                 </button>
