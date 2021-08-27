@@ -5,9 +5,7 @@ const seconds = 1000;
 const minutes = seconds*60;
 const hours = minutes*60;
 const days = hours*24;
-const music = new Audio(m);
-
-let play = false;
+let mute = true;
 
 function Counter() {
     const [Seconds, setSeconds] = useState(0);
@@ -38,41 +36,11 @@ function Counter() {
         setDays(fDays);
     }
 
-
-
-    document.addEventListener('scroll', async function () {
-       
-        if(start && Days > 0 && !play){
-            music.load();
-            music.volume = 0.5;
-            music.muted = false;
-            const playPromise = music.play()
-            if (playPromise !== undefined) {
-                playPromise.then(_ => {
-
-                })
-                .catch(error => {
-                  console.log(error);
-                });
-              }
-            play = true;
-        }
-    })
-
     useEffect( () => {
         calculateTime();
+        mute = false;
     }, [])
 
-    // useEffect(() => () => music.pause(), [])
-
-    // useEffect( music.pause())
-    // setInterval(()=> {
-    //     music.load();
-    //     console.log("carreguei")
-    //     if(start && Days > 0)
-    //         music.play()
-    // }, 2000)
-    
     setTimeout(() => {
         calculateTime();
     },1000);
@@ -82,10 +50,11 @@ function Counter() {
     if(start && Days > 0) return (
         <>
             <div id="counter">
-                {/* <audio controls autoPlay>
-                    <source src={m} type="audio/ogg"/>
-                    <source src={m} type="audio/mpeg"/>
-                </audio> */}
+            <audio muted={mute} autoPlay>
+                <source src="horse.ogg" type="audio/ogg" />
+                <source src={m} type="audio/mpeg" />
+                Your browser does not support the audio tag.
+            </audio>
                 <div className="dateItem">
                     <h2>{Days}</h2>
                     <p>DIAS</p>
