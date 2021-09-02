@@ -69,7 +69,7 @@ function Speakers() {
                     url={veronica}
                     name="Verônica Fragoso"
                     title="Professora"
-                    description="Atua como Chefe da Divisão de Formação e Eventos Digitais da SEDEC/JP; Pedagoga e Desenhista Educacional para EaD."
+                    description="Pedagoga, historiadora, mestre em Educação e mestranda em Educação Tecnológica."
                     // ig="https://google.com"
                 />             
             </div>
