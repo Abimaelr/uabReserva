@@ -44,7 +44,7 @@ function Schedule() {
                     <p>Conferência - 15 anos da UAB na Paraíba: conquistas e desafios
                     <br />
                     <br />
-                    Palestrante - <span>Prof. Dr. Lucídio dos Anjos Formiga Cabral</span> - Professor Titular do Departamento de Computação Científica do Centro de Informática da UFPB)</p>
+                    Palestrante - <span>Prof. Dr. Lucídio dos Anjos Formiga Cabral</span> - Professor Titular do Departamento de Computação Científica do Centro de Informática (UFPB)</p>
                 </OffCanvasElement>
             </div>
             <div className="schedule">
@@ -70,7 +70,7 @@ function Schedule() {
                     <h6>2ª Rodada - <span><i class="las la-clock"></i>14H ÀS 16H</span></h6>
                     <br />
                     <p><span>PALESTRA 3</span> -  Aprendizagens e Vivências: muros ou pontes? A escola na vida ou a escola da vida?
-                    <br /> MINISTRANTE - Prof. Me.Gilmar de Oliveira. (PMJP)
+                    <br /> MINISTRANTE - Prof. Me.Gilmar de Oliveira.
                     </p>
                     <br />
                     <p><span>PALESTRA 4</span> -  Não nasci na era digital, e agora, José?
@@ -94,7 +94,7 @@ function Schedule() {
                     <br /> MINISTRANTE - Prof. Me. Priscila Dias
                     </p>
                     <br />
-                    <p><span>PALESTRA 6</span> -  OO uso de tecnologia na educação com intencionalidade pedagógica
+                    <p><span>PALESTRA 6</span> -  O uso de tecnologia na educação com intencionalidade pedagógica
                     <br /> MINISTRANTE -  Prof. Me. Fernanda Gomides
                     </p>
                     <hr />

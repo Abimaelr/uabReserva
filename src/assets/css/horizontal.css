@@ -11,6 +11,7 @@
     /* background-color: black; */
     margin: 2px;
     transition: 200ms;
+    overflow-y: hidden;
 }
 
 .imgCard {
@@ -19,6 +20,7 @@
     height: 100%;
     background-color: #ffffff3a;
     width: 35%;
+    overflow-y: hidden;
     
 }
 
@@ -34,6 +36,8 @@
     /* background-color: brown; */
     height: 100%;
     width: 65%;
+    overflow-y: hidden;
+    /* background-color: orangered; */
     /* width: 80%; */
 }
 

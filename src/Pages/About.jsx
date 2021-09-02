@@ -33,7 +33,7 @@ function About() {
                                 regulamentação brasileira para a EaD, a exemplo do Plano Nacional de
                                 Educação (PNE) e do Decreto 5622 de 2005, em que o Governo Federal dá
                                 início à criação e implementação do Sistema de Universidade Aberta do Brasil
-                                (UAB), sob a justificativa da democratização da educação e do conhecimento.<br/>
+                                (UAB), sob a justificativa da democratização da educação e do conhecimento.<br/><br />
                                 O Sistema de UAB trata-se de uma grande parceria pública nas três
                                 esferas governamentais (federal, estadual e municipal), que conta com a
                                 participação das Instituições de Ensino Superior (IES) públicas e demais

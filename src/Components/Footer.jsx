@@ -16,8 +16,9 @@ function Footer() {
             <Row>
                 <Col xs={8} sm={4}>
                     <div className="icons">
-                        <p>Promovido por: </p>
-                        <img src={jp} alt="João Pessoa Logo" />
+                        <p>Apoiado por: </p>
+                        <img id="ufpb" src={ufpb} alt="UFPB Logo" />
+                        <img id="if" src={ifpb} alt="IFPB Logo" />
                     </div>
                 </Col>
                 <Col xs={8} sm={4}>
@@ -25,9 +26,8 @@ function Footer() {
                 </Col>
                 <Col xs={8} sm={4}>
                     <div className="icons">
-                        <p>Apoiado por: </p>
-                        <img id="ufpb" src={ufpb} alt="UFPB Logo" />
-                        <img id="if" src={ifpb} alt="IFPB Logo" />
+                        <p>Promovido por: </p>
+                        <img src={jp} alt="João Pessoa Logo" />
                     </div>
                 </Col>
             </Row>

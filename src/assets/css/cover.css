@@ -18,9 +18,10 @@
 }
 
 .jpCover {
+    align-self: flex-end;
     width: 120px;
     position: absolute;
-    margin: 30px;
+    margin: 10px;
     z-index: 0;
 }
 
@@ -135,7 +136,7 @@
     height: fit-content;
     /* width: 350px; */
     /* margin: 50px auto; */
-    margin: auto;
+    margin: 50px auto;
     text-align: center;
     /* background-image: url('../img/logo.png'); */
     background-size: 400px;
