@@ -47,7 +47,7 @@ function Body() {
            </Row>
        </Container>
        <SpecialTitle title="Abertura" subTitle="20 de Setembro" />
-       <iframe width="80%" height="400px" src="https://www.youtube.com/embed/gvjWQUXUjo0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" />
+       <iframe width="80%" height="400px" src="https://www.youtube.com/embed/skOn70zWncU?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" />
         <div id="features">
             <SpecialTitle title="Conteúdo" subTitle="O que você verá aqui" />
             <div>

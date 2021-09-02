@@ -8,6 +8,8 @@ import fernanda from '../assets/img/Fernanda.png';
 import ercules from '../assets/img/Ercules.png';
 import daniele from '../assets/img/Daniele.png';
 import lucidio from '../assets/img/Lucidio.png';
+import junior from '../assets/img/Junior.png';
+import veronica from '../assets/img/veronica.png';
 
 function Speakers() {
     return (
@@ -55,7 +57,21 @@ function Speakers() {
                     title="Professora"
                     description="Atua como Chefe da Divisão de Formação e Eventos Digitais da SEDEC/JP; Pedagoga e Desenhista Educacional para EaD."
                     // ig="https://google.com"
-                />            
+                />
+                <Speaker
+                    url={junior}
+                    name="Junior Fideles"
+                    title="Professor"
+                    description="Mestre em Ciencias de la Educación. Pós-Graduação em Educação Inclusiva e Pós-Graduação em Psicopedagogia Institucional e Clínica."
+                    // ig="https://google.com"
+                />
+                <Speaker
+                    url={veronica}
+                    name="Verônica Fragoso"
+                    title="Professora"
+                    description="Atua como Chefe da Divisão de Formação e Eventos Digitais da SEDEC/JP; Pedagoga e Desenhista Educacional para EaD."
+                    // ig="https://google.com"
+                />             
             </div>
             <div id="speakerContent">
             </div>
