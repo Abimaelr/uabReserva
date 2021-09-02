@@ -32,7 +32,7 @@ function Schedule() {
         <div id='schedule'>
             <div class="bg-image"></div>
             <div className="schedule">
-                <h3>DIA 1</h3>
+                <h3>1º DIA</h3>
                 <h4>20 de Setembro</h4>
                 <h6>ABERTURA</h6>
                 <br />
@@ -48,7 +48,7 @@ function Schedule() {
                 </OffCanvasElement>
             </div>
             <div className="schedule">
-                <h3>DIA 2</h3>
+                <h3>2º DIA</h3>
                 <h4>21 de Setembro</h4>
                 <h6>PALESTRAS</h6>
                 <br />
@@ -79,7 +79,7 @@ function Schedule() {
                 </OffCanvasElement>
             </div>
             <div className="schedule">
-                <h3>DIA 3</h3>
+                <h3>3º DIA</h3>
                 <h4>22 de Setembro</h4>
                 <h6>EXPOSIÇÕES E ENCERRAMENTO</h6>
                 <br />
