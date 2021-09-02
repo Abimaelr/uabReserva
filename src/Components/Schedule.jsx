@@ -94,7 +94,11 @@ function Schedule() {
                     <br /> MINISTRANTE - Prof. Me. Priscila Dias
                     </p>
                     <br />
-                    <p><span>PALESTRA 6</span> -  O uso de tecnologia na educação com intencionalidade pedagógica
+                    <p><span>PALESTRA 6</span> -  Educação emocional: um novo paradigma pedagógico?
+                    <br /> MINISTRANTE -  Prof. Me. Junior Fideles
+                    </p>
+                    <br />
+                    <p><span>PALESTRA 7</span> -  O uso de tecnologia na educação com intencionalidade pedagógica
                     <br /> MINISTRANTE -  Prof. Me. Fernanda Gomides
                     </p>
                     <hr />
