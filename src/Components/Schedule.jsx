@@ -70,7 +70,7 @@ function Schedule() {
                     <h6>2ª Rodada - <span><i class="las la-clock"></i>14H ÀS 16H</span></h6>
                     <br />
                     <p><span>PALESTRA 3</span> -  Aprendizagens e Vivências: muros ou pontes? A escola na vida ou a escola da vida?
-                    <br /> MINISTRANTE - Prof. Me.Gilmar de Oliveira.
+                    <br /> MINISTRANTE - Prof. Me.Gilmar de Oliveira (PMJP)
                     </p>
                     <br />
                     <p><span>PALESTRA 4</span> -  Não nasci na era digital, e agora, José?
@@ -91,7 +91,7 @@ function Schedule() {
                     <h6>1ª Rodada - <span><i class="las la-clock"></i>9H ÀS 11H</span></h6>
                     <br />
                     <p><span>PALESTRA 5</span> - Gamificação no ensino e as tecnologias que auxiliam a aprendizagem de milhares de jovens
-                    <br /> MINISTRANTE - Prof. Me. Priscila Dias
+                    <br /> MINISTRANTE - Prof. Me. Priscila Dias (PMJP/SEDEC/DTIC)
                     </p>
                     <br />
                     <p><span>PALESTRA 6</span> -  Educação emocional: um novo paradigma pedagógico?
@@ -99,8 +99,7 @@ function Schedule() {
                     </p>
                     <br />
                     <p><span>PALESTRA 7</span> -  O uso de tecnologia na educação com intencionalidade pedagógica
-                    <br /> MINISTRANTE -  Prof. Me. Fernanda Gomides
-                    </p>
+                    <br /> MINISTRANTE -  Prof. Me. Fernanda Gomides</p>
                     <hr />
                     <h6>2ª Rodada - <span><i class="las la-clock"></i>14H ÀS 16H</span></h6>
                     <br />
@@ -115,7 +114,7 @@ function Schedule() {
                     <h6>Encerramento - <span><i class="las la-clock"></i>19H</span></h6>
                     <br />
                     <p><span>CONFERÊNCIA 02</span> - A polidocência no Ensino à Distância
-                    <br /> MINISTRANTE -  Prof. Daniel Mill
+                    <br /> MINISTRANTE -  Prof. Daniel Mill (UFScar)
                     </p>
                     <p><span>Apresentação Cultural </span> e homenagem dos Polos aos 15 anos da UAB.</p>
                 </OffCanvasElement>
