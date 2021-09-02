@@ -5,6 +5,7 @@ import $ from 'jquery';
 import Particles from 'react-tsparticles';
 import config from '../assets/particlesjs-config';
 import Zoom from 'react-reveal/Zoom';
+import jp from '../assets/img/jp.png';
 
 function Cover() {
 
@@ -26,6 +27,7 @@ function Cover() {
                     
             </div> */}
             <div className="coverContainer">
+               
             <Particles options={config} />
             {/* <video preload playsinline autoplay="true" controls={false} muted id="coverItem">
                 <source src='https://storage.googleapis.com/portal-pmjp.appspot.com/video/cover.mp4' type="video/mp4"/>
@@ -34,6 +36,7 @@ function Cover() {
                 Your browser does not support the video tag.
             </video> */}
             <div className="coverHead">
+                <img className="jpCover" src={jp} alt="Joao Pessoa" srcset="" />
                 <div id="mainInfo">
                     <Zoom duration={5000}>
                         <div id="title" >

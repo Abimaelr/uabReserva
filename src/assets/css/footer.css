@@ -9,6 +9,7 @@
     background-color: black;
     color: white;
     font-family: 'OCR A Extended', sans-serif;
+    overflow-y: hidden;
 }
 
 .link {
@@ -67,4 +68,10 @@ a p{
 
 #if{
     filter: invert() brightness(100000);
+}
+
+.sedec {
+    margin: auto;
+    width: auto;
+    height: 60px;
 }

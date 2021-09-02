@@ -4,7 +4,7 @@ const opitions = {
       value: "transparent",
     },
   },
-  fpsLimit: 50,
+  fpsLimit: 24,
   interactivity: {
     detectsOn: "canvas",
     events: {
@@ -23,13 +23,13 @@ const opitions = {
         distance: 400,
         duration: 2,
         opacity: 0.8,
-        size: 400,
+        size: 100,
       },
       push: {
         quantity: 4,
       },
       repulse: {
-        distance: 200,
+        distance: 500,
         duration: 0.4,
       },
     },
@@ -59,7 +59,7 @@ const opitions = {
     number: {
       density: {
         enable: true,
-        value_area: 1000,
+        value_area: 1200,
       },
       value: 100,
     },
@@ -71,7 +71,7 @@ const opitions = {
     },
     size: {
       random: true,
-      value: 12,
+      value: 6,
     },
   },
   detectRetina: true,

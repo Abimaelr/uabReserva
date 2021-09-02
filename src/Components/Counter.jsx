@@ -1,5 +1,4 @@
 import React,{useState, useEffect} from 'react';
-import m from '../assets/m.mp3';
 import '../assets/css/counter.css'
 const seconds = 1000;
 const minutes = seconds*60;
@@ -42,7 +41,6 @@ function Counter() {
 
     setTimeout(() => {
         calculateTime();
-        mute = false;
     },1000);
     
     if(!start) return (<div></div>);

@@ -8,10 +8,6 @@
     src: local('OCR A Extended'), url('../OCRAEXT_2.woff') format('woff');
 }
 
-.App {
-    /* overflow-x: hidden; */
-}
-
 #cover {
     display: flex;
     z-index: 1;
@@ -19,6 +15,13 @@
     overflow: hidden;
     margin: auto;
     width: 100vw;
+}
+
+.jpCover {
+    width: 120px;
+    position: absolute;
+    margin: 30px;
+    z-index: 0;
 }
 
 #coverItem {
