@@ -41,7 +41,7 @@ function Schedule() {
                     <h1>DIA 1</h1>
                     <br />
                     <h6>ABERTURA - <span><i class="las la-clock"></i>19H</span></h6>
-                    <p>Conferência - 15 anos da UAB na Paraíba: conquistas e desafios
+                    <p><span>Conferência 1 </span>- 15 anos da UAB na Paraíba: conquistas e desafios
                     <br />
                     <br />
                     Palestrante - <span>Prof. Dr. Lucídio dos Anjos Formiga Cabral</span> - Professor Titular do Departamento de Computação Científica do Centro de Informática (UFPB)</p>
@@ -110,7 +110,10 @@ function Schedule() {
                     <hr />
                     <h6>Encerramento - <span><i class="las la-clock"></i>19H</span></h6>
                     <br />
-                    <p>Apresentação Cultural e homenagem dos Polos aos 15 anos da UAB.</p>
+                    <p><span>CONFERÊNCIA 02</span> - A polidocência no Ensino à Distância
+                    <br /> MINISTRANTE -  Prof. Daniel Mill
+                    </p>
+                    <p><span>Apresentação Cultural </span> e homenagem dos Polos aos 15 anos da UAB.</p>
                 </OffCanvasElement>
             </div>
         </div>

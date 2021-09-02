@@ -10,6 +10,7 @@ import daniele from '../assets/img/Daniele.png';
 import lucidio from '../assets/img/Lucidio.png';
 import junior from '../assets/img/Junior.png';
 import veronica from '../assets/img/veronica.png';
+import daniel from '../assets/img/Daniel.png';
 
 function Speakers() {
     return (
@@ -71,7 +72,14 @@ function Speakers() {
                     title="Professora"
                     description="Pedagoga, historiadora, mestre em Educação e mestranda em Educação Tecnológica."
                     // ig="https://google.com"
-                />             
+                />
+                <Speaker
+                    url={daniel}
+                    name="Daniel Mill"
+                    title="Professor"
+                    description="Doutor em Educação e Professor Líder do Grupo Horizonte (Grupo de Estudos e Pesquisas sobre Inovação em Educação, Tecnologias e Linguagens) da Universidade Federal de São Carlos (UFSCar)"
+                    // ig="https://google.com"
+                />                  
             </div>
             <div id="speakerContent">
             </div>
