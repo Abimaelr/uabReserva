@@ -1,0 +1,23 @@
+#podcast {
+    background-color: black;
+    min-height: 100vh;
+    width: 100%;
+}
+
+#podcast hr {
+    color: wheat;
+    height: 5px;
+    background-color: orange;
+}
+
+#podcast h3 {
+    color: orange;
+    text-align: left;
+    /* height: 5px; */
+    /* background-color: orange; */
+}
+
+#podcast iframe {
+    margin: 10px auto;
+    
+}

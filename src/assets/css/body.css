@@ -154,7 +154,7 @@ span {
 
 .event {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -165,14 +165,20 @@ background: linear-gradient(0deg, black 0%, rgba(255, 166, 0, 0.3) 30%, black 10
 }
 
 .event button{
-    margin: 0 auto;
+    margin: 0 50px;
     min-width: 330px;
 }
 
 .event button a{
     color: white;
+
     font-weight: 700;
     text-decoration: none;
+}
+
+.event button i{
+    margin: auto 10px;
+
 }
 
 

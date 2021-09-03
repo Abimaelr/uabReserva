@@ -10,6 +10,7 @@ import 'animate.css/animate.css'
 import '../src/assets/css/general.css'
 import Footer from './Components/Footer';
 import Event from './Pages/Event';
+import Podcast from './Pages/Podcast';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
           <Route exact path="/" component={Home}/>
           <Route exact path="/about" component={About}/>
           <Route exact path="/event" component={Event}/>
+          <Route exact path="/podcast" component={Podcast}/>
         </Switch>
       </Router>
       <Footer />
