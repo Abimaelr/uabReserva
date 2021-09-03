@@ -2,6 +2,7 @@
     overflow-x: hidden;
     scroll-behavior: smooth;
     font-family: 'Roboto';
+
     /* transition: 1000ms; */
     /* background-color: black; */
 }
@@ -162,23 +163,48 @@ span {
     background: rgb(255,165,0);
 background: linear-gradient(0deg, black 0%, rgba(255, 166, 0, 0.3) 30%, black 100%);
     height: 100vh;
+    text-decoration: none;
 }
 
-.event button{
-    margin: 0 50px;
+.event a {
+    text-decoration: none;
+}
+
+.event .Button{
+    /* background-color: orange; */
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* margin: 0 50px; */
+    /* padding: 2px 0; */
+    height: 40px;
     min-width: 330px;
 }
 
-.event button a{
+.event .Button a{
+    
     color: white;
-
+    /* margin: auto; */
     font-weight: 700;
     text-decoration: none;
 }
 
-.event button i{
-    margin: auto 10px;
+.event .Button i{
+    
+    padding: 0;
+    margin: 0 10px;
+    /* margin: 0 10px; */
+    font-size: 22px;
 
+}
+
+.event .Button p{
+    padding: 0;
+    margin: 0 10px;
+    font-size: 20px;
+    color: wheat;
 }
 
 

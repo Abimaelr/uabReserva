@@ -69,13 +69,13 @@ function Body() {
             <Link  to="/event">
                 <button  className="Button access">
                     <i class="las la-video" />
-                        Vídeo
+                    <p> Vídeo </p>
                 </button>
             </Link>
             <Link  to="/podcast">
                 <button  className="Button access">
                     <i class="las la-headphones" />
-                    PodCast
+                    <p> PodCast </p>
                 </button>
             </Link>
         </div>
