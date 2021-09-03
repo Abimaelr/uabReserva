@@ -2,6 +2,7 @@ import React,  { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import SpecialTitle from '../Components/SpecialTitle';
 import '../assets/css/event.css';
+import { Row, Col } from 'react-bootstrap';
 
 function Event() {
     useEffect(() => {
@@ -10,11 +11,50 @@ function Event() {
     return (
         <div id="event">
             <SpecialTitle title="Dia 1" />
-            <iframe width="100%" height="400px" src="https://www.youtube.com/embed/gvjWQUXUjo0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" />
+            <Row>
+                <Col sm={4}>
+                    <h4><span>Titulo do Vídeo</span></h4>
+                    <iframe width="100%" height="400px" src="https://www.youtube.com/embed/gvjWQUXUjo0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" />
+                </Col>
+                <Col sm={4}>
+                    <h4><span>Titulo do Vídeo</span></h4>
+                    <iframe width="100%" height="400px" src="https://www.youtube.com/embed/gvjWQUXUjo0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" />
+                </Col>
+                <Col  sm={4}>
+                    <h4><span>Titulo do Vídeo</span></h4>
+                    <iframe width="100%" height="400px" src="https://www.youtube.com/embed/gvjWQUXUjo0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" />
+                </Col>
+            </Row>
             <SpecialTitle title="Dia 2" />
-            <iframe width="100%" height="400px" src="https://www.youtube.com/embed/gvjWQUXUjo0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" />
+            <Row>
+                <Col sm={4}>
+                    <h4><span>Titulo do Vídeo</span></h4>
+                    <iframe width="100%" height="400px" src="https://www.youtube.com/embed/gvjWQUXUjo0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" />
+                </Col>
+                <Col sm={4}>
+                    <h4><span>Titulo do Vídeo</span></h4>
+                    <iframe width="100%" height="400px" src="https://www.youtube.com/embed/gvjWQUXUjo0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" />
+                </Col>
+                <Col  sm={4}>
+                    <h4><span>Titulo do Vídeo</span></h4>
+                    <iframe width="100%" height="400px" src="https://www.youtube.com/embed/gvjWQUXUjo0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" />
+                </Col>
+            </Row>
             <SpecialTitle title="Dia 3" />
-            <iframe width="100%" height="400px" src="https://www.youtube.com/embed/gvjWQUXUjo0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" />
+            <Row>
+                <Col sm={4}>
+                    <h4><span>Titulo do Vídeo</span></h4>
+                    <iframe width="100%" height="400px" src="https://www.youtube.com/embed/gvjWQUXUjo0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" />
+                </Col>
+                <Col sm={4}>
+                    <h4><span>Titulo do Vídeo</span></h4>
+                    <iframe width="100%" height="400px" src="https://www.youtube.com/embed/gvjWQUXUjo0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" />
+                </Col>
+                <Col  sm={4}>
+                    <h4><span>Titulo do Vídeo</span></h4>
+                    <iframe width="100%" height="400px" src="https://www.youtube.com/embed/gvjWQUXUjo0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" />
+                </Col>
+            </Row>
             <br />
             <br />
                 <br />
