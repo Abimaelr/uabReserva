@@ -8,6 +8,7 @@ import SpecialTitle from '../Components/SpecialTitle';
 function Podcast() {
     useEffect(() => {
         window.scrollTo(0, 0);
+
       }, []);
     return (
         <div id="podcast">
@@ -17,9 +18,18 @@ function Podcast() {
                 <h3>1° DIA</h3>
                 <hr />
                 <Row>
-                    <iframe title="Podcast" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1118184526&color=%23ffa500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" />
-                    <iframe title="Podcast" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1118184526&color=%23ffa500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" />
-                    <iframe title="Podcast" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1118184526&color=%23ffa500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" />
+                    <div className="audio">
+                        <h4>Júnior Fideles</h4>
+                        <iframe
+                            className="Audio Player"
+                            title="Palestra Junior Fideles"
+                            frameborder="0"
+                            // width="400"
+                            // height="200"
+                            src="https://drive.google.com/file/d/1w5ZcuDuaNxkX2f50kKhtDooNBMNvYWxi/preview">
+                        </iframe>
+                    </div>
+                 
                 </Row>
                 <hr />
                 <h3>2° DIA</h3>

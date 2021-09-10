@@ -49,7 +49,7 @@ function Speakers() {
                     url={fernanda}
                     name="Fernanda Gomides"
                     title="Professora"
-                    description="Consultora Educacional no uso de tecnologia. Mestre em Educação e doutoranda em Educação pela UFPB/PPGE."
+                    description="Consultora Educacional no uso de tecnologia. Mestre em Educação e doutoranda em Educação pelo PPGE/UFPB."
                     // ig="https://google.com"
                 />
                 <Speaker
