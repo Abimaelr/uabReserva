@@ -15,37 +15,77 @@ function Podcast() {
             <Container >
                 <SpecialTitle title="Podcast" />
                 <hr />
-                <h3>1° DIA</h3>
+                {/* <h3>1° DIA</h3> */}
                 <hr />
                 <Row>
                     <div className="audio">
-                        <h4>Júnior Fideles</h4>
+                        <h4>Titulo da palestra</h4>
+                        <h5>Júnior Fideles</h5>
                         <iframe
                             className="Audio Player"
                             title="Palestra Junior Fideles"
                             frameborder="0"
                             // width="400"
                             // height="200"
-                            src="https://drive.google.com/file/d/1w5ZcuDuaNxkX2f50kKhtDooNBMNvYWxi/preview">
+                            src="https://drive.google.com/file/d/1tKZnqYvAxDjDfrriSFdH7Npl_6bFcO9z/preview">
                         </iframe>
                     </div>
                  
                 </Row>
                 <hr />
-                <h3>2° DIA</h3>
+                {/* <h3>2° DIA</h3> */}
                 <hr />
                 <Row>
-                <iframe title="Podcast" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1118184526&color=%23ffa500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" />
-                    <iframe title="Podcast" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1118184526&color=%23ffa500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" />
-                    <iframe title="Podcast" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1118184526&color=%23ffa500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" />
+                    <div className="audio">
+                        <h4>O lugar das Tecnologias na educação a distância</h4>
+                        <h5>Ercules Laurentino Diniz</h5>
+                        <iframe
+                            className="Audio Player"
+                            title="Ercules Laurentino Diniz"
+                            frameborder="0"
+                            src="https://drive.google.com/file/d/14RFJDpBa6rDrH6OzQBmuxbiHndjoGLvB/preview">
+                        </iframe>
+                    </div>
+                    <div className="audio">
+                        <h4>Aprendizagens e Vivências: muros ou pontes? A escola na vida ou a escola da vida?</h4>
+                        <h5>Psicólogo Me.Gilmar de Oliveira</h5>
+                        <iframe
+                            className="Audio Player"
+                            title="Gilmar de Oliveira"
+                            frameborder="0"
+                            src="https://drive.google.com/file/d/1AY6bA3FG-X6SBNExU71RfeS8iZCQAHD3/preview">
+                        </iframe>
+                    </div>
+                    <div className="audio">
+                        <h4>Não nasci na era digital, e agora, José?</h4>
+                        <h5>Prof. Me. Verônica Fragoso</h5>
+                        <iframe
+                            className="Audio Player"
+                            title="Prof. Me. Verônica Fragoso"
+                            frameborder="0"
+                            src="https://drive.google.com/file/d/1CVL2_BJHkDDOahPTm69kKUcGfKiqoxup/preview">
+                        </iframe>
+                    </div>
+                   
+                   
+                   
+                
+                
                 </Row>
                 <hr />
-                <h3>3° DIA</h3>
+                {/* <h3>3° DIA</h3> */}
                 <hr />
                 <Row>
-                    <iframe title="Podcast" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1118184526&color=%23ffa500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" />
-                    <iframe title="Podcast" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1118184526&color=%23ffa500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" />
-                    <iframe title="Podcast" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1118184526&color=%23ffa500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" />
+                    <div className="audio">
+                        <h4>O uso de tecnologia na educação com intencionalidade pedagógica</h4>
+                        <h5>Prof. Me. Fernanda Gomides</h5>
+                        <iframe
+                            className="Audio Player"
+                            title="Prof. Me. Fernanda Gomides"
+                            frameborder="0"
+                            src="https://drive.google.com/file/d/1kREAgbcQZWlJr13VLsaXzhLe1kQaJxOv/preview">
+                        </iframe>
+                    </div>
                 </Row>
                 <br /><br />
                 <Link to="/">
