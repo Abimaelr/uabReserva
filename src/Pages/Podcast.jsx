@@ -33,7 +33,7 @@ function Podcast() {
                 </Row> */}
                 <hr />
                 {/* <h3>2° DIA</h3> */}
-                <hr />
+                {/* <hr />
                 <Row>
                 <div className="audio">
                         <h4>O PAPEL DA EDUCAÇÃO E O USO DAS TECNOLOGIAS DE MANEIRA CRÍTICA E REFLEXIVA NA EAD</h4>
@@ -42,8 +42,6 @@ function Podcast() {
                             className="Audio Player"
                             title="Palestra Junior Fideles"
                             frameborder="0"
-                            // width="400"
-                            // height="200"
                             src="https://drive.google.com/file/d/1tKZnqYvAxDjDfrriSFdH7Npl_6bFcO9z/preview">
                         </iframe>
                     </div>
@@ -84,7 +82,6 @@ function Podcast() {
                 
                 </Row>
                 <hr />
-                {/* <h3>3° DIA</h3> */}
                 <hr />
                 <Row>
                 <div className="audio">
@@ -137,7 +134,7 @@ function Podcast() {
                             src="https://drive.google.com/file/d/1kREAgbcQZWlJr13VLsaXzhLe1kQaJxOv/preview">
                         </iframe>
                     </div>
-                </Row>
+                </Row> */}
                 <br /><br />
                 <Link to="/">
                     <button id="speakersBtn">Voltar</button>
