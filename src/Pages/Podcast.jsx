@@ -14,10 +14,9 @@ function Podcast() {
         <div id="podcast">
             <Container >
                 <SpecialTitle title="Podcast" />
-                <hr />
+
                 {/* <h3>1° DIA</h3> */}
-                <hr />
-                <Row>
+                {/* <Row>
                     <div className="audio">
                         <h4>Educação emocional: Um novo paradigma pedagógico</h4>
                         <h5>Júnior Fideles</h5>
@@ -31,11 +30,23 @@ function Podcast() {
                         </iframe>
                     </div>
                  
-                </Row>
+                </Row> */}
                 <hr />
                 {/* <h3>2° DIA</h3> */}
                 <hr />
                 <Row>
+                <div className="audio">
+                        <h4>O PAPEL DA EDUCAÇÃO E O USO DAS TECNOLOGIAS DE MANEIRA CRÍTICA E REFLEXIVA NA EAD</h4>
+                        <h5>Profa. Daniele Dias</h5>
+                        <iframe
+                            className="Audio Player"
+                            title="Palestra Junior Fideles"
+                            frameborder="0"
+                            // width="400"
+                            // height="200"
+                            src="https://drive.google.com/file/d/1tKZnqYvAxDjDfrriSFdH7Npl_6bFcO9z/preview">
+                        </iframe>
+                    </div>
                     <div className="audio">
                         <h4>O lugar das Tecnologias na educação a distância</h4>
                         <h5>Ercules Laurentino Diniz</h5>
@@ -76,9 +87,49 @@ function Podcast() {
                 {/* <h3>3° DIA</h3> */}
                 <hr />
                 <Row>
+                <div className="audio">
+                        <h4>GAMIFICAÇÃO NO ENSINO E AS TECNOLOGIAS QUE AUXILIAM A APRENDIZAGEM DE MILHARES DE JOVENS</h4>
+                        <h5>Prof. Me. Priscila Dias</h5>
+                        <iframe
+                            className="Audio Player"
+                            title="Prof. Me. Priscila Dias"
+                            frameborder="0"
+                            src="https://drive.google.com/file/d/1kREAgbcQZWlJr13VLsaXzhLe1kQaJxOv/preview">
+                        </iframe>
+                    </div>
+                    <div className="audio">
+                        <h4>EDUCAÇÃO EMOCIONAL: UM NOVO PARADIGMA PEDAGÓGICO?</h4>
+                        <h5>Prof. Me. Júnior Fideles</h5>
+                        <iframe
+                            className="Audio Player"
+                            title="Prof. Me. Júnior Fideles"
+                            frameborder="0"
+                            src="https://drive.google.com/file/d/1tKZnqYvAxDjDfrriSFdH7Npl_6bFcO9z/preview">
+                        </iframe>
+                    </div>
                     <div className="audio">
                         <h4>O uso de tecnologia na educação com intencionalidade pedagógica</h4>
                         <h5>Prof. Me. Fernanda Gomides</h5>
+                        <iframe
+                            className="Audio Player"
+                            title="Prof. Me. Fernanda Gomides"
+                            frameborder="0"
+                            src="https://drive.google.com/file/d/1kREAgbcQZWlJr13VLsaXzhLe1kQaJxOv/preview">
+                        </iframe>
+                    </div>
+                    <div className="audio">
+                        <h4>EXPOSIÇÃO 1: AS CONQUISTAS E OS DESAFIOS DOS POLOS NA PARAÍBA</h4>
+                        <h5>Coordenadores de Polo</h5>
+                        <iframe
+                            className="Audio Player"
+                            title="Coordenadores de Polo"
+                            frameborder="0"
+                            src="https://drive.google.com/file/d/1kREAgbcQZWlJr13VLsaXzhLe1kQaJxOv/preview">
+                        </iframe>
+                    </div>
+                    <div className="audio">
+                        <h4>EXPOSIÇÃO 2: AS CONQUISTAS E OS DESAFIOS DOS POLOS NA PARAÍBA</h4>
+                        <h5>Assistentes e Tutores dos Polos UAB-PB</h5>
                         <iframe
                             className="Audio Player"
                             title="Prof. Me. Fernanda Gomides"
