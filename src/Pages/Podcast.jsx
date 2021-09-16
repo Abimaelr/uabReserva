@@ -19,7 +19,7 @@ function Podcast() {
                 <hr />
                 <Row>
                     <div className="audio">
-                        <h4>Titulo da palestra</h4>
+                        <h4>Educação emocional: Um novo paradigma pedagógico</h4>
                         <h5>Júnior Fideles</h5>
                         <iframe
                             className="Audio Player"
