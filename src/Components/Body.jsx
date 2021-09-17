@@ -23,7 +23,7 @@ function Body() {
                <Col md={12}>
                     <div>
                         <br/>
-                        <Fade down duration={2000}>
+                        <Fade top duration={2000}>
                             <p>Para celebrar os 15 anos da Universidade Aberta do Brasil, estamos promovendo o <br /><span>I SEMINÁRIO INTERPOLOS: 15 anos da UAB na Paraíba</span> <br />visando instigar reflexões sobre a formação universitária de milhares de jovens, neste contexto de século XXI .  Teremos discussões em torno de temas como  Tecnologias na Educação, Gamificação  do ensino,  Cultura digital,  Ensino híbrido, Educação Emocional e o Sistema da UAB  nos Polos da Paraíba.</p>
                         </Fade>
                         <br />
@@ -39,7 +39,7 @@ function Body() {
 
            </Row>
        </Container>
-               <Fade right duration={2000}>
+               <Fade bottom duration={2000}>
                     <div id="imageD">
                         <img src={img} alt="Foto" />
                         <a target="blank" href="https://forms.gle/KeVDSH9ivdADTEC56">
