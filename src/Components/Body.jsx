@@ -36,7 +36,6 @@ function Body() {
                     </div>
                </Col>
 
-
            </Row>
        </Container>
                <Fade bottom duration={2000}>
@@ -48,7 +47,9 @@ function Body() {
                     </div>
                </Fade>
        <SpecialTitle title="Abertura" subTitle="20 de Setembro" />
-       <iframe width="80%" height="400px" src="https://www.youtube.com/embed/skOn70zWncU?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" />
+       <div className="videoContent">
+        <iframe className="video" src="https://www.youtube.com/embed/skOn70zWncU?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" />
+       </div>
         <div id="features">
             <SpecialTitle title="Conteúdo" subTitle="O que você verá aqui" />
             <div>
@@ -70,19 +71,24 @@ function Body() {
         <Schedule />
         <div className="event">
             <SpecialTitle title="O evento" subTitle="Participe do Seminário" />
-            
-            <Link  to="/event">
-                <button  className="Button access">
+            <div className="eventContent">
+                <div className="eventBn">
                     <i class="las la-video" />
-                    <p> Vídeo </p>
-                </button>
-            </Link>
-            <Link  to="/podcast">
-                <button  className="Button access">
+                    <Link  to="/event">
+                        <button  className="Button access">
+                            <p> Vídeo </p>
+                        </button>
+                    </Link>
+                </div>
+                <div className="eventBn">
                     <i class="las la-headphones" />
-                    <p> PodCast </p>
-                </button>
-            </Link>
+                    <Link  to="/podcast">
+                        <button  className="Button access">
+                            <p> PodCast </p>
+                        </button>
+                    </Link>
+                </div>    
+            </div>
         </div>
         <Sponsors />
        </div>

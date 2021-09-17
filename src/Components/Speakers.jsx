@@ -49,14 +49,14 @@ function Speakers() {
                     url={fernanda}
                     name="Fernanda Gomides"
                     title="Professora"
-                    description=" Mestre em Educação e doutoranda em Educação pelo UFPB/PPGE. Consultora Educacional no uso de tecnologia."
+                    description=" Mestra em Educação e doutoranda em Educação pelo UFPB/PPGE. Consultora Educacional no uso de tecnologia."
                     // ig="https://google.com"
                 />
                 <Speaker
                     url={priscila}
                     name="Priscila Dias"
                     title="Professora"
-                    description="Pedagoga, Mestre em educação e Desenhista Educacional para EaD. Atua como Chefe da Divisão de Formação e Eventos Digitais da SEDEC/JP."
+                    description="Pedagoga, Mestra em educação e Desenhista Educacional para EaD. Atua como Chefe da Divisão de Formação e Eventos Digitais da SEDEC/JP."
                     // ig="https://google.com"
                 />
                 <Speaker
@@ -70,7 +70,7 @@ function Speakers() {
                     url={veronica}
                     name="Verônica Fragoso"
                     title="Professora"
-                    description="Pedagoga, historiadora, mestre em Educação e mestranda em Educação Tecnológica."
+                    description="Pedagoga, Historiadora, Mestra em Educação e mestranda em Educação Tecnológica."
                     // ig="https://google.com"
                 />
                 <Speaker

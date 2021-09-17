@@ -53,6 +53,20 @@
     color: black;
 }
 
+.videoContent
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.video {
+    height: 60vw;
+    width: 80vw;
+    margin: auto;
+}
+
 #ball1 {
     background-color: orange;
     height: 150px;
@@ -187,6 +201,15 @@ background: linear-gradient(0deg, black 0%, rgba(255, 166, 0, 0.3) 30%, black 10
     text-decoration: none;
 }
 
+.eventContent {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* background-color: blue; */
+}
+
 .event a {
     text-decoration: none;
 }
@@ -214,11 +237,24 @@ background: linear-gradient(0deg, black 0%, rgba(255, 166, 0, 0.3) 30%, black 10
 
 .event .Button i{
     
-    padding: 0;
-    margin: 0 10px;
+    /* padding: 0; */
     /* margin: 0 10px; */
-    font-size: 22px;
+    /* margin: 0 10px; */
+    /* font-size: 22px; */
 
+}
+
+.eventBn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin: 0 20px;
+}
+
+.eventBn i {
+    font-size: 8rem;
 }
 
 .event .Button p{
@@ -248,5 +284,9 @@ background: linear-gradient(0deg, black 0%, rgba(255, 166, 0, 0.3) 30%, black 10
         position: relative;
         transform: translateY(0) translateX(0);
         /* z-index: 3; */
+    }
+    .section{
+        min-height: fit-content;
+        /* background-color: orangered; */
     }
   }
