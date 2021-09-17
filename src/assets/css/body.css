@@ -227,21 +227,12 @@ background: linear-gradient(0deg, black 0%, rgba(255, 166, 0, 0.3) 30%, black 10
     min-width: 330px;
 }
 
-.event .Button a{
+.event .Button p{
     
     color: white;
     /* margin: auto; */
-    font-weight: 700;
+    /* font-weight: 700; */
     text-decoration: none;
-}
-
-.event .Button i{
-    
-    /* padding: 0; */
-    /* margin: 0 10px; */
-    /* margin: 0 10px; */
-    /* font-size: 22px; */
-
 }
 
 .eventBn {
@@ -249,7 +240,7 @@ background: linear-gradient(0deg, black 0%, rgba(255, 166, 0, 0.3) 30%, black 10
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 300px;
+    width: 350px;
     margin: 0 20px;
 }
 
@@ -260,10 +251,15 @@ background: linear-gradient(0deg, black 0%, rgba(255, 166, 0, 0.3) 30%, black 10
 .event .Button p{
     padding: 0;
     margin: 0 10px;
-    font-size: 20px;
-    color: wheat;
+    /* font-size: 20px; */
+    /* color: wheat; */
 }
 
+.event .Button p:hover{
+    color: black;
+    /* font-size: 20px; */
+    /* color: wheat; */
+}
 
 @media only screen and (max-width: 1210px) {
     #cardContainer {
