@@ -24,7 +24,7 @@ function Body() {
                     <div>
                         <br/>
                         <Fade top duration={2000}>
-                            <p>Para celebrar os 15 anos da Universidade Aberta do Brasil, estamos promovendo o <br /><span>I SEMINÁRIO INTERPOLOS: 15 anos da UAB na Paraíba</span> <br />visando instigar reflexões sobre a formação universitária de milhares de jovens, neste contexto de século XXI .  Teremos discussões em torno de temas como  Tecnologias na Educação, Gamificação  do ensino,  Cultura digital,  Ensino híbrido, Educação Emocional e o Sistema da UAB  nos Polos da Paraíba.</p>
+                            <h3>Para celebrar os 15 anos da Universidade Aberta do Brasil, estamos promovendo o <br /><span>I SEMINÁRIO INTERPOLOS: 15 anos da UAB na Paraíba</span> <br />visando instigar reflexões sobre a formação universitária de milhares de jovens, neste contexto de século XXI .  Teremos discussões em torno de temas como  Tecnologias na Educação, Gamificação  do ensino,  Cultura digital,  Ensino híbrido, Educação Emocional e o Sistema da UAB  nos Polos da Paraíba.</h3>
                         </Fade>
                         <br />
                         <Fade right duration={2000}>
