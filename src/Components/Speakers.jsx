@@ -35,7 +35,7 @@ function Speakers() {
                     url={ercules}
                     name="Ercules Diniz"
                     title="Professor"
-                    description="Mestre e Doutorando em Educação pelo PPGE/UFPB. Bacharel e Licenciado em Ciências Biológicas pela UFPB."
+                    description="Mestre e Doutorando em Educação pelo UFPB/PPGE. Bacharel e Licenciado em Ciências Biológicas pela UFPB."
                     // ig="https://google.com"
                 />
                  <Speaker
@@ -49,14 +49,14 @@ function Speakers() {
                     url={fernanda}
                     name="Fernanda Gomides"
                     title="Professora"
-                    description="Consultora Educacional no uso de tecnologia. Mestre em Educação e doutoranda em Educação pelo PPGE/UFPB."
+                    description=" Mestre em Educação e doutoranda em Educação pelo UFPB/PPGE. Consultora Educacional no uso de tecnologia."
                     // ig="https://google.com"
                 />
                 <Speaker
                     url={priscila}
                     name="Priscila Dias"
                     title="Professora"
-                    description="Atua como Chefe da Divisão de Formação e Eventos Digitais da SEDEC/JP; Pedagoga e Desenhista Educacional para EaD."
+                    description="Pedagoga, Mestre em educação e Desenhista Educacional para EaD. Atua como Chefe da Divisão de Formação e Eventos Digitais da SEDEC/JP."
                     // ig="https://google.com"
                 />
                 <Speaker

@@ -20,28 +20,33 @@ function Body() {
            <br />
            <Row className="section">
                 <SpecialTitle title="Bem vindos" subTitle="I Seminário Interpolos UAB" />
-               <Col md={6}>
+               <Col md={12}>
                     <div>
                         <br/>
                         <Fade down duration={2000}>
                             <p>Para celebrar os 15 anos da Universidade Aberta do Brasil, estamos promovendo o <br /><span>I SEMINÁRIO INTERPOLOS: 15 anos da UAB na Paraíba</span> <br />visando instigar reflexões sobre a formação universitária de milhares de jovens, neste contexto de século XXI .  Teremos discussões em torno de temas como  Tecnologias na Educação, Gamificação  do ensino,  Cultura digital,  Ensino híbrido, Educação Emocional e o Sistema da UAB  nos Polos da Paraíba.</p>
                         </Fade>
                         <br />
+                        <Fade right duration={2000}>
                         <Link to="/about">
-                            <button id="speakersBtn">SOBRE</button>
+                            <button id="speakersBtn">Sobre</button>
                         </Link>
+               </Fade>
                        
                     </div>
                </Col>
-               <Col md={6}>
+
+
+           </Row>
+       </Container>
                <Fade right duration={2000}>
                     <div id="imageD">
                         <img src={img} alt="Foto" />
+                        <a target="blank" href="https://forms.gle/KeVDSH9ivdADTEC56">
+                            <button id="subscribe">Inscreva-se</button>
+                        </a>
                     </div>
                </Fade>
-               </Col>
-           </Row>
-       </Container>
        <SpecialTitle title="Abertura" subTitle="20 de Setembro" />
        <iframe width="80%" height="400px" src="https://www.youtube.com/embed/skOn70zWncU?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" />
         <div id="features">
