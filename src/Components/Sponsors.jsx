@@ -52,7 +52,7 @@ function Sponsors() {
                   <div className="sponsorItem s2"></div>
                   <div className="sponsorItem s3"></div>
                   <div className="sponsorItem s4"></div>
-                  <div className="sponsorItem s5"></div>
+                  {/* <div className="sponsorItem s5"></div> */}
                   <div className="sponsorItem s6"></div>
                   <div className="sponsorItem s7"></div>
                   <div className="sponsorItem s8"></div>

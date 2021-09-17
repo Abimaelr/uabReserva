@@ -32,9 +32,9 @@
 .s4 {
     background-image:url('../img/logos/Duas\ estradas\ Logo.png');
 }
-.s5 {
+/* .s5 {
     background-image:url('../img/logos/Itabaiana.png');
-}
+} */
 .s6 {
     background-image:url('../img/logos/Livramento\ PB.png');
 }
@@ -45,7 +45,7 @@
     background-image:url('../img/logos/Logo-João-Pessoa.png');
 }
 .s9 {
-    background-image:url('../img/logos/Logo\ Taperoa.jpg');
+    background-image:url('../img/logos/Logo\ Taperoa.png');
 }
 .s10 {
     background-image:url('../img/logos/Logo_PM\ Pombal.png');
@@ -60,7 +60,8 @@
     background-image:url('../img/logos/prefeitura-de-Pitimbu-PB.jpg');
 }
 .s14 {
-    background-image:url('../img/logos/prefeitura-mamanguape.jpg');
+    background-image:url('../img/logos/cuite.png');
+    /* filter: invert(); */
 }
 /* .s15 {
     background-image:url('../img/logos/prefeitura-municipal-de-conde-pb.png');
