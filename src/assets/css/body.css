@@ -61,9 +61,9 @@
     width: 100%;
 }
 
-.video {
+.homeVideo {
     height: 60vw;
-    width: 80vw;
+    width: 60vw;
     margin: auto;
 }
 
@@ -231,7 +231,7 @@ background: linear-gradient(0deg, black 0%, rgba(255, 166, 0, 0.3) 30%, black 10
     
     color: white;
     /* margin: auto; */
-    /* font-weight: 700; */
+    font-weight: 600;
     text-decoration: none;
 }
 
