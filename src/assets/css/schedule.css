@@ -93,7 +93,28 @@
 h6 {
     overflow-y: hidden;
 }
+.btn .btn-stand{
+    /* position: relative; */
+    color: white;
+    /* margin: 50px; */
+    width: fit-content;
+    /* min-width: 200px; */
+    height: 50px;
+    font-weight: 900;
+    /* background-color: white; */
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    transition: 300ms;
+    /* position: absolute; */
+    /* transform: translateY(-20vw) translateX(10vw); */
 
+}
+
+.btn-stand:hover {
+    background-color: orange;
+    color: black;
+
+}
 span i{
     margin: 3px;
     padding: 0;
