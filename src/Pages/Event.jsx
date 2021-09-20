@@ -15,7 +15,7 @@ function Event() {
                 <Col md={12}>
                     <div className="video">
                         <h4>Abertura</h4>
-                        <h5>Conferência 1: 15 anos da UAB na Paraíba: Conquistas e Desafios - Dr. Lucídio dos Anjos Formiga Cabral</h5>
+                        <h5>Conferência 1: 15 anos da UAB na Paraíba: Conquistas e Desafios - D.r Lucídio dos Anjos Formiga Cabral</h5>
                         <iframe width="80%" height="80%" src="https://www.youtube.com/embed/skOn70zWncU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" />
                     </div>
                 </Col>
@@ -27,7 +27,7 @@ function Event() {
                     <div className="video">
                         <div className="titleVideo">
                             <h4>O papel da educação e o uso das tecnologias de maneira crítica e reflexiva na EaD</h4>
-                            <h5>Profa. Daniele Dias</h5>
+                            <h5>Profa. D.ra Daniele Dias</h5>
                         </div>
                         {/* <iframe width="100%" height="400px" src="https://www.youtube.com/embed/skOn70zWncU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" /> */}
                     </div>
@@ -36,7 +36,7 @@ function Event() {
                     <div className="video">
                         <div className="titleVideo">
                             <h4>O lugar das Tecnologias na educação a distância: buscando o equilíbrio entre o otimismo ingênuo e a resistência hesitante</h4>
-                            <h5>Prof. Me. Ercules Laurentino Diniz</h5>
+                            <h5>Prof. M.e Ercules Laurentino Diniz</h5>
                         </div>
                         {/* <iframe width="100%" height="400px" src="https://www.youtube.com/embed/bEZi9BokQds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
                 
@@ -46,7 +46,7 @@ function Event() {
                     <div className="video">
                         <div className="titleVideo">
                             <h4>Aprendizagens e Vivências: muros ou pontes? A escola na vida ou a escola da vida?</h4>
-                            <h5>Me.Gilmar de Oliveira</h5>
+                            <h5>M.e Gilmar de Oliveira</h5>
                         </div>
                         {/* <iframe width="100%" height="400px" src="https://www.youtube.com/embed/skOn70zWncU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" /> */}
                     </div>
@@ -56,7 +56,7 @@ function Event() {
                         <div className="titleVideo">
                             <h4>Não nasci na era digital, e agora, José?
 </h4>
-                            <h5>Prof. Me. Verônica Fragoso</h5>
+                            <h5>Prof. Ma. Verônica Fragoso</h5>
                         </div>
                         {/* <iframe width="100%" height="400px" src="https://www.youtube.com/embed/JyEkQ1emtVM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
                     </div>
@@ -68,7 +68,7 @@ function Event() {
                     <div className="video">
                         <div className="titleVideo">
                             <h4>Gamificação no ensino e as tecnologias que auxiliam a aprendizagem de milhares de jovens</h4>
-                            <h5>Prof. Me. Priscila Dias</h5>
+                            <h5>Prof. Ma. Priscila Dias</h5>
                         </div>
                         {/* <iframe width="100%" height="400px" src="https://www.youtube.com/embed/skOn70zWncU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" /> */}
                     </div>
@@ -78,7 +78,7 @@ function Event() {
                         <div className="titleVideo">
                             <h4>Educação emocional: um novo paradigma pedagógico?
 </h4>
-                            <h5>Prof. Me. Júnior Fideles</h5>
+                            <h5>Prof. M.e Júnior Fideles</h5>
                         </div>
                         {/* <iframe width="100%" height="400px" src="https://www.youtube.com/embed/0Mu5QEHatwU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
                     </div>
@@ -88,7 +88,7 @@ function Event() {
                         <div className="titleVideo">
                             <h4>O uso de tecnologia na educação com intencionalidade pedagógica
 </h4>
-                            <h5>Prof. Me. Fernanda Gomides</h5>
+                            <h5>Prof. Ma. Fernanda Gomides</h5>
                         </div>
                         {/* <iframe width="100%" height="400px"  src="https://www.youtube.com/embed/RXIQqcoyW8s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
                     </div>
@@ -121,7 +121,7 @@ function Event() {
                             <h4>ENCERRAMENTO</h4>
                             <h5>Conferência 2: Relações de saber, poder e inclusão na educação à distância: uma análise sobre a UAB. - Prof. Daniel Mill</h5>
                             <h5>Apresentação Cultural e homenagem dos Polos aos 15 anos da UAB</h5>
-                            <h5>Prof. Daniel Mill</h5>
+                            <h5>Prof. D.r Daniel Mill</h5>
                         </div>
                         <iframe  width="80%" height="80%"  src="https://www.youtube.com/embed/skOn70zWncU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" />
                     </div>
