@@ -3,13 +3,17 @@ import { Link } from 'react-router-dom';
 import SpecialTitle from '../Components/SpecialTitle';
 import '../assets/css/event.css';
 import { Row, Col } from 'react-bootstrap';
+import Cover from '../Components/Cover';
 
 function Event() {
     useEffect(() => {
         window.scrollTo(0, 0);
       }, []);
     return (
-        <div id="event">
+        <>
+        <Cover />
+        <div id="event" >
+            <a href="#content" />
             <SpecialTitle title="Dia 1" />
             <Row>
                 <Col md={12}>
@@ -148,6 +152,7 @@ function Event() {
             <br />
             <br />
         </div>
+        </>
     )
 }
 
