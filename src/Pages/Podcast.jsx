@@ -4,13 +4,15 @@ import { Link } from 'react-router-dom';
 import { Container, Row } from 'react-bootstrap';
 import '../assets/css/podcast.css'
 import SpecialTitle from '../Components/SpecialTitle';
+import Cover from '../Components/Cover';
 
 function Podcast() {
     useEffect(() => {
         window.scrollTo(0, 0);
 
       }, []);
-    return (
+    return (<>
+            <Cover />
         <div id="podcast">
             <Container >
                 <SpecialTitle title="Podcast" />
@@ -141,6 +143,7 @@ function Podcast() {
                 </Link>
             </Container>
         </div>
+        </>
     )
 }
 
