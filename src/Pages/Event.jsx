@@ -13,7 +13,7 @@ function Event() {
         <>
         <Cover />
         <div id="event" >
-            <a href="#content" />
+            <a id="content"/>
             <SpecialTitle title="Dia 1" />
             <Row>
                 <Col md={12}>

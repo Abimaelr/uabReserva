@@ -15,7 +15,7 @@ function Podcast() {
             <Cover />
         <div id="podcast">
             <Container >
-                <a href="#content" />
+            <a id="content"/>
                 <SpecialTitle title="Podcast" />
 
                 {/* <h3>1° DIA</h3> */}
