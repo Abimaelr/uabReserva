@@ -20,7 +20,7 @@ function Event() {
                     <div className="video">
                         <h4>Abertura</h4>
                         <h5>Conferência 1: 15 anos da UAB na Paraíba: Conquistas e Desafios - Dr. Lucídio dos Anjos Formiga Cabral</h5>
-                        <iframe width="80%" height="80%" src="https://www.youtube.com/embed/skOn70zWncU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" />
+                        <iframe width="80%" height="80%" src="https://www.youtube.com/embed/NQQDM0mhe9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" />
                     </div>
                 </Col>
 
