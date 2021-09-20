@@ -46,10 +46,10 @@ function Speakers() {
                     // ig="https://google.com"
                 />
                 <Speaker
-                    url={fernanda}
-                    name="Fernanda Gomides"
+                    url={veronica}
+                    name="Verônica Fragoso"
                     title="Professora"
-                    description=" Mestra em Educação e doutoranda em Educação pelo UFPB/PPGE. Consultora Educacional no uso de tecnologia."
+                    description="Pedagoga, Historiadora, Mestra em Educação e mestranda em Educação Tecnológica."
                     // ig="https://google.com"
                 />
                 <Speaker
@@ -67,10 +67,10 @@ function Speakers() {
                     // ig="https://google.com"
                 />
                 <Speaker
-                    url={veronica}
-                    name="Verônica Fragoso"
+                    url={fernanda}
+                    name="Fernanda Gomides"
                     title="Professora"
-                    description="Pedagoga, Historiadora, Mestra em Educação e mestranda em Educação Tecnológica."
+                    description=" Mestra em Educação e doutoranda em Educação pelo UFPB/PPGE. Consultora Educacional no uso de tecnologia."
                     // ig="https://google.com"
                 />
                 <Speaker

@@ -113,7 +113,7 @@ function Schedule() {
                     <hr />
                     <h6>Encerramento - <span><i class="las la-clock"></i>19H</span></h6>
                     <br />
-                    <p><span>CONFERÊNCIA 02</span> - A polidocência no Ensino à Distância
+                    <p><span>CONFERÊNCIA 02</span> - Relações de saber, poder e inclusão na educação à distância: uma análise sobre a UAB.
                     <br /> MINISTRANTE -  Prof. Daniel Mill (UFSCar)
                     </p>
                     <p><span>Apresentação Cultural </span> e homenagem dos Polos aos 15 anos da UAB.</p>
