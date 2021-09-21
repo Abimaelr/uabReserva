@@ -4,7 +4,7 @@ import SpecialTitle from '../Components/SpecialTitle';
 import '../assets/css/event.css';
 import { Row, Col } from 'react-bootstrap';
 import Cover from '../Components/Cover';
-
+// OPS
 function Event() {
     useEffect(() => {
         window.scrollTo(0, 0);
