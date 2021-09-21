@@ -42,7 +42,7 @@ function Event() {
                             <h4>O lugar das Tecnologias na educação a distância: buscando o equilíbrio entre o otimismo ingênuo e a resistência hesitante</h4>
                             <h5>Prof. Me. Ercules Laurentino Diniz</h5>
                         </div>
-                        {/* <iframe width="100%" height="400px" src="https://www.youtube.com/embed/bEZi9BokQds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
+                        <iframe width="100%" height="400px" src="https://www.youtube.com/embed/bEZi9BokQds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 
                     </div>
                 </Col>
