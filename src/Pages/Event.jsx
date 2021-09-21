@@ -52,7 +52,7 @@ function Event() {
                             <h4>Aprendizagens e Vivências: muros ou pontes? A escola na vida ou a escola da vida?</h4>
                             <h5>Me. Gilmar de Oliveira</h5>
                         </div>
-                        {/* <iframe width="100%" height="400px" src="https://www.youtube.com/embed/skOn70zWncU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" /> */}
+                        <iframe width="100%" height="400px" src="https://www.youtube.com/embed/gOLPCD0uqEM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;" />
                     </div>
                 </Col>
                 <Col md={4}>
@@ -62,7 +62,7 @@ function Event() {
 </h4>
                             <h5>Prof. Ma. Verônica Fragoso</h5>
                         </div>
-                        {/* <iframe width="100%" height="400px" src="https://www.youtube.com/embed/JyEkQ1emtVM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
+                        <iframe width="100%" height="400px" src="https://www.youtube.com/embed/JyEkQ1emtVM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </Col>
             </Row>
